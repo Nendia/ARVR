@@ -8,12 +8,12 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 01 Nov 2022 17:15:07 +0100</lastBuildDate><atom:link href="https://Nendia.github.io/ARVR/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First_post</title>
+      <title>Woche 1</title>
       <link>https://Nendia.github.io/ARVR/posts/first_post/</link>
       <pubDate>Tue, 01 Nov 2022 17:15:07 +0100</pubDate>
       
       <guid>https://Nendia.github.io/ARVR/posts/first_post/</guid>
-      <description>hier ist platz für inhalt </description>
+      <description>Diese Woche wurden zuerst Grundlagen geschaffen. Dieser Blog wird mit Hugo erstellt und aktualisiert. Hugo zum Laufen zu bringen, bzw. Bilder einzubinden war komplizierter als erwartet. Freitag wurde dann mit der Einrichtung von Unity begonnen&amp;hellip; und innerhalb einer Stunde abgeschlossen. </description>
     </item>
     
   </channel>
