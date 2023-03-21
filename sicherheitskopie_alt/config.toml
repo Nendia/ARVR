@@ -1,0 +1,153 @@
+baseurl = 'https://Nendia.github.io/ARVR'
+metaDataFormat = "yaml"
+title = 'Blog: Interaktion in Virtuellen und Augmentierten Welten'
+theme = "blist"
+
+DefaultContentLanguage = "de"
+DefaultContentLanguageInSubdir = true
+[languages]
+  [languages.en]
+    contentDir = "ARVR/content/en" #English
+    weight = 1
+    languageName = "English"
+    [languages.en.params]
+      introTitle = "Hey! I'm Katheryn Fox"
+      introSubtitle = "26 y/o junior developer who enjoys social card games, blogging and painting"
+      introPhoto = "/picture.jpg"
+      logo = "/blist-logo.png"
+    [[languages.en.menu.main]]
+        name = "Blog"
+        url = "blog"
+        weight = 1
+
+    [[languages.en.menu.main]]
+        name = "About"
+        url = "page/about/"
+        weight = 2
+
+    [[languages.en.menu.main]]
+        name = "Tags"
+        url = "tags"
+        weight = 3
+
+    [[languages.en.menu.main]]
+        name = "Top Post"
+        url = "/en/blog/emoji-support/"
+        weight = 4
+		
+  [languages.de]
+    contentDir = "ARVR/content/de" # Deutsch
+    weight = 2
+    languageName = "Deutsch"
+    title = "Blog: Nadine Völkl"
+    description = "Blog für die integrierte Lehrveranstaltung 'Interaktion in Virtuellen und Augmentierten Welten'"
+    [languages.de.params]
+      introTitle = "Hallo, ich bin Katheryn Fox"
+      introSubtitle = "26-jährige Junior-Entwicklerin, die Spaß an sozialen Kartenspielen, Bloggen und Malen hat"
+      introPhoto = "/img/woche_1/picture.jpg"
+      logo = "/blist-logo-de.png"
+    [[languages.de.menu.main]]
+        name = "Blog"
+        url = "blog"
+        weight = 1
+
+    [[languages.de.menu.main]]
+        name = "Über mich"
+        url = "page/about/"
+        weight = 2
+
+    [[languages.de.menu.main]]
+        name = "Tags"
+        url = "tags"
+        weight = 3
+
+[params]
+  # Enable the darkmode toggle in header
+  darkModeToggle = true
+  
+  # Enable search in header
+  enableSearch = true
+
+  # Option to customize the search parameters of a page
+  # Below are the supported options; Note that including entire content
+  # may slowdown the loading of search results
+  # Title of page is included by default
+  searchKeys = [
+    "tags",
+    "date",
+    "categories",
+    "summary",
+    "content",
+    "link",
+    "author"
+  ]
+
+  # Custom copyright - optional
+#  copyright = "Copyright © 2021 - Katheryn Fox · All rights reserved"
+#  favicon = "/favicon.svg"
+
+  # Color for the intro details and social links block, not applicable for dark mode
+  # Supported values: Any color from TailwindCSS default colors
+  # Reference: https://tailwindcss.com/docs/customizing-colors
+  ascentColor = "bg-pink-100"
+
+  # The page bundle that is shown on the front page
+  frontBundle = "blog"
+
+  # Used to hide the post metadata such as posted date, reading time and word count
+  # Can be used at site level or page level
+  hideMeta = false
+
+  # To hide "Other languages" option if the post is available in multiple languages
+  # Can be used at site level or page level
+  hideOtherLanguages = false
+
+  # Add support for Table of contents
+  # Can be added to a page level also in markdown frontmatter
+  toc = true
+
+  # Hides the thumbnail in post view
+  # Thumbnails in home and blog pages will still be shown
+  # This setting can also be in page's markdown file
+  hidePageThumbnail = false
+
+# Comments system
+[params.comments]
+  # Supports disqus, giscus and utterances
+  # Check hugo docs for setting up disqus
+  system = "giscus"
+
+  # Options for giscus, exclude hyphens
+  repo = ""
+  repoid = ""
+  category = ""
+  categoryid = ""
+  mapping = ""
+  strict = ""
+  reactionsenabled = ""
+  emitmetadata = ""
+  inputposition = ""
+  theme = ""
+
+  # Options for utterances, exclude hyphens
+  # repo = ""
+  # issueterm = ""
+  # theme = ""
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+
+[build]
+  writeStats = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
+  [markup.goldmark.renderer]
+    # Enable to include inline HTML
+    unsafe = true

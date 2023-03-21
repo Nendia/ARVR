@@ -1,0 +1,6 @@
+baseURL = 'https://Nendia.github.io/ARVR'
+languageCode = 'en-us'
+title = 'Blog: Interaktion in Virtuellen und Augmentierten Welten'
+theme = 'blist'
+publishDir = "docs"
+canonifyURLs = true

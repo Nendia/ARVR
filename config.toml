@@ -1,6 +1,210 @@
-baseURL = 'https://Nendia.github.io/ARVR'
-languageCode = 'en-us'
-title = 'Blog: Interaktion in Virtuellen und Augmentierten Welten'
-theme = 'ananke'
-publishDir = "docs"
-canonifyURLs = true
+baseurl = "https://blist.vercel.app"
+metaDataFormat = "yaml"
+title = "Blog: Interaktion in Virtuellen und Augmentierten Welten"
+theme = "blist"
+
+DefaultContentLanguage = "de"
+DefaultContentLanguageInSubdir = true
+[languages]
+  [languages.de]
+    contentDir = "content/de" #Deutsch
+    weight = 1
+    languageName = "Deutsch"
+    [languages.de.params]
+      introTitle = "Hallo, ich bin Nadine Völkl"
+      introSubtitle = "Teilzeitstudentin im Bachelor of Education Informatik und Master of Education Deutsch und Teilzeitlehrerin für die Fächer Informatik und Deutsch an einem beruflichen Gymnasium"
+      introPhoto = "/profilbild_2.jpg"
+      logo = "/blist-logo.png"
+    [[languages.de.menu.main]]
+        name = "Blog"
+        url = "blog"
+        weight = 1
+
+    [[languages.de.menu.main]]
+        name = "Über mich"
+        url = "/" #"page/about/"
+        weight = 2
+
+    #[[languages.de.menu.main]]
+        #name = "Tags"
+        #url = "tags"
+        #weight = 3
+
+    #[[languages.de.menu.main]]
+        #name = "Top Post"
+        #url = "/de/blog/emoji-support/"
+        #weight = 4
+
+  #[languages.de]
+    #contentDir = "content/de" # Deutsch
+    #weight = 2
+    #languageName = "Deutsch"
+    #title = "Blog: Nadine Völkl"
+    #description = "Blog für die integrierte Lehrveranstaltung 'Interaktion in Virtuellen und Augmentierten Welten'"
+    #[languages.de.params]
+      #introTitle = "Hallo, ich bin Nadine Völkl"
+      #introSubtitle = "Teilzeitstudentin im Bachelor of Education Informatik und Master of Education Deutsch und Teilzeitlehrerin für die Fächer Informatik und Deutsch an einem #beruflichen Gymnasium"
+      #introPhoto = "/profilbild_2.jpg"
+      #logo = "/blist-logo-de.png"
+    #[[languages.de.menu.main]]
+        #name = "Blog"
+        #url = "blog"
+        #weight = 1
+
+    #[[languages.de.menu.main]]
+        #name = "Über mich"
+        #url = "page/about/"
+        #weight = 2
+
+    #[[languages.de.menu.main]]
+        #name = "Tags"
+        #url = "tags"
+        #weight = 3
+        
+  #[languages.fr]
+   # contentDir = "content/fr" #French
+   # weight = 1
+   # languageName = "Français"
+   # [languages.fr.params]
+     # introTitle = "Salut! Je suis Katheryn Fox"
+     # introSubtitle = "Développeuse junior de 26 ans qui adore les jeux de société, le blogging et la peinture"
+     # introPhoto = "/picture.jpg"
+     # logo = "/blist-logo.png"
+   # [[languages.fr.menu.main]]
+       # name = "Blog"
+       # url = "blog"
+       # weight = 1
+
+   # [[languages.fr.menu.main]]
+       # name = "À propos"
+       # url = "page/about/"
+       # weight = 2
+
+   # [[languages.fr.menu.main]]
+       # name = "Tags"
+       # url = "tags"
+       # weight = 3
+        
+  #[languages.dy]
+   # contentDir = "content/dy" #Example language
+   # weight = 3
+   # languageName = "Test Language"
+
+[params]
+  # Enable the darkmode toggle in header
+  darkModeToggle = true
+  
+  # Enable search in header
+  enableSearch = true
+
+  # Option to customize the search parameters of a page
+  # Below are the supported options; Note that including entire content
+  # may slowdown the loading of search results
+  # Title of page is included by default
+  searchKeys = [
+    "tags",
+    "date",
+    "categories",
+    "summary",
+    "content",
+    "link",
+    "author"
+  ]
+
+  # Custom copyright - optional
+  copyright = " " #"Copyright © 2021 - Katheryn Fox · All rights reserved"
+  # favicon = "/favicon.svg"
+
+  # Color for the intro details and social links block, not applicable for dark mode
+  # Supported values: Any color from TailwindCSS default colors
+  # Reference: https://tailwindcss.com/docs/customizing-colors
+  ascentColor = "bg-pink-100"
+
+  # The page bundle that is shown on the front page
+  frontBundle = "blog"
+
+  # Used to hide the post metadata such as posted date, reading time and word count
+  # Can be used at site level or page level
+  hideMeta = false
+
+  # To hide "Other languages" option if the post is available in multiple languages
+  # Can be used at site level or page level
+  hideOtherLanguages = true
+
+  # Add support for Table of contents
+  # Can be added to a page level also in markdown frontmatter
+  toc = true
+
+  # Hides the thumbnail in post view
+  # Thumbnails in home and blog pages will still be shown
+  # This setting can also be in page's markdown file
+  hidePageThumbnail = false
+
+# Comments system
+[params.comments]
+  # Supports disqus, giscus and utterances
+  # Check hugo docs for setting up disqus
+  system = "giscus"
+
+  # Options for giscus, exclude hyphens
+  repo = ""
+  repoid = ""
+  category = ""
+  categoryid = ""
+  mapping = ""
+  strict = ""
+  reactionsenabled = ""
+  emitmetadata = ""
+  inputposition = ""
+  theme = ""
+
+  # Options for utterances, exclude hyphens
+  # repo = ""
+  # issueterm = ""
+  # theme = ""
+
+[params.homepage.social]
+  # Global params common for both languages
+  title = "Social Media"
+  description = "Bunte Mischung aus Lehreralltag und Studienverlauf"
+
+  [[params.homepage.social.icons]]
+    website = "twitter"
+    url = "https://twitter.com/nendia1989"
+  [[params.homepage.social.icons]]
+    website = "telegram"
+    url = "https://t.me/nendia"
+  [[params.homepage.social.icons]]
+    url = "https://github.com/nendia"
+    website = "github"
+  # [[params.homepage.social.icons]]
+    # website = "mastodon"
+    # url = "https://joinmastodon.org"
+  # [[params.homepage.social.icons]]
+    # website = "instagram"
+    # url = "https://instagram.com"
+  # [[params.homepage.social.icons]]
+    # website = "facebook"
+    # url = "https://facebook.com"
+  # Icon existiert nicht evtl. selbst eines erstellen
+  # [[params.homepage.social.icons]]
+    # website = "twitch"
+    # url = "https://twitch.tv/nendia1989"
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+
+[build]
+  writeStats = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
+  [markup.goldmark.renderer]
+    # Enable to include inline HTML
+    unsafe = true

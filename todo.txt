@@ -1,0 +1,9 @@
+- Bild für Startseite erstellen (logo = "/blist-logo.png")
+- Icon für Twitch erstellen
+- Links anpassen, damit das mit ARVR funktioniert
+
+
+Woche 1:
+Was war an der Einrichtung von Hugo kompliziert? Unity sollte kompliziert sein, war aber einfach. Wieso?
+
+Woche 2:
