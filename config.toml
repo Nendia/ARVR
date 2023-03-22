@@ -14,7 +14,7 @@ DefaultContentLanguageInSubdir = true
     weight = 1
     languageName = "Deutsch"
     [languages.de.params]
-      introTitle = "Hallo, ich bin Nadine Völkl"
+      introTitle = "Nadine Völkl"
       introSubtitle = "Teilzeitstudentin im Bachelor of Education Informatik und Master of Education Deutsch und Teilzeitlehrerin für die Fächer Informatik und Deutsch an einem beruflichen Gymnasium"
       introPhoto = "profilbild_2.jpg"
       logo = "blist-logo.png"
