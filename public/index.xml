@@ -5,7 +5,36 @@
     <link>https://Nendia.github.io/ARVR/</link>
     <description>Recent content on Blog: Interaktion in Virtuellen und Augmentierten Welten</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 15 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://Nendia.github.io/ARVR/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Nov 2022 19:56:20 +0100</lastBuildDate><atom:link href="https://Nendia.github.io/ARVR/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Woche 3</title>
+      <link>https://Nendia.github.io/ARVR/blog/woche_3/</link>
+      <pubDate>Sat, 05 Nov 2022 19:56:20 +0100</pubDate>
+      
+      <guid>https://Nendia.github.io/ARVR/blog/woche_3/</guid>
+      <description>Diese Woche wurden zuerst Grundlagen geschaffen. Dieser Blog wird mit Hugo erstellt und aktualisiert. Hugo zum Laufen zu bringen, bzw. Bilder einzubinden war komplizierter als erwartet.
+Freitag wurde dann mit der Einrichtung von Unity begonnen&amp;hellip; und innerhalb einer Stunde abgeschlossen. </description>
+    </item>
+    
+    <item>
+      <title>Woche 2</title>
+      <link>https://Nendia.github.io/ARVR/blog/erstesprojekt/</link>
+      <pubDate>Sat, 05 Nov 2022 19:56:00 +0100</pubDate>
+      
+      <guid>https://Nendia.github.io/ARVR/blog/erstesprojekt/</guid>
+      <description>Das erste Projekt! Natürlich mit Hilfe eines Tutorials, aber nach ca. 10 Stunden Arbeit lief es dann endlich.</description>
+    </item>
+    
+    <item>
+      <title>Woche 1</title>
+      <link>https://Nendia.github.io/ARVR/blog/grundlagen/</link>
+      <pubDate>Tue, 01 Nov 2022 17:15:07 +0100</pubDate>
+      
+      <guid>https://Nendia.github.io/ARVR/blog/grundlagen/</guid>
+      <description>Diese Woche wurden zuerst Grundlagen geschaffen. Dieser Blog wird mit Hugo erstellt und aktualisiert. Hugo zum Laufen zu bringen, bzw. Bilder einzubinden war komplizierter als erwartet.
+Freitag wurde dann mit der Einrichtung von Unity begonnen&amp;hellip; und innerhalb einer Stunde abgeschlossen. </description>
+    </item>
+    
     <item>
       <title>Über mich</title>
       <link>https://Nendia.github.io/ARVR/page/about/</link>
@@ -15,35 +44,6 @@
       <description>Hugo wurde in Go geschrieben und ist ein Open-Source-Generator für statische Sites, der unter der [Apache License 2.0.] (https://github.com/gohugoio/hugo/blob/master/LICENSE) verfügbar ist. Hugo unterstützt TOML-, YAML- und JSON-Datendateitypen , Markdown- und HTML-Inhaltsdateien und verwendet Shortcodes, um Rich Content hinzuzufügen. Andere bemerkenswerte Funktionen sind Taxonomien, mehrsprachiger Modus, Bildverarbeitung, benutzerdefinierte Ausgabeformate, HTML/CSS/JS-Minifizierung und Unterstützung für Sass SCSS-Workflows.
 Hugo nutzt eine Vielzahl von Open-Source-Projekten, darunter:
 https://github.com/yuin/goldmarkhttps://github.com/alecthomas/chromahttps://github.com/muesli/smartcrophttps://github.com/spf13/cobrahttps://github.com/spf13/viperHugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.</description>
-    </item>
-    
-    <item>
-      <title>Woche 1</title>
-      <link>https://Nendia.github.io/ARVR/blog/grundlagen/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://Nendia.github.io/ARVR/blog/grundlagen/</guid>
-      <description>Diese Woche wurden zuerst Grundlagen geschaffen. Dieser Blog wird mit Hugo erstellt und aktualisiert. Hugo zum Laufen zu bringen, bzw. Bilder einzubinden war komplizierter als erwartet.
-Freitag wurde dann mit der Einrichtung von Unity begonnen&amp;hellip; und innerhalb einer Stunde abgeschlossen. </description>
-    </item>
-    
-    <item>
-      <title>Woche 2</title>
-      <link>https://Nendia.github.io/ARVR/blog/erstesprojekt/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://Nendia.github.io/ARVR/blog/erstesprojekt/</guid>
-      <description>Das erste Projekt! Natürlich mit Hilfe eines Tutorials, aber nach ca. 10 Stunden Arbeit lief es dann endlich.</description>
-    </item>
-    
-    <item>
-      <title>Woche 3</title>
-      <link>https://Nendia.github.io/ARVR/blog/woche_3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://Nendia.github.io/ARVR/blog/woche_3/</guid>
-      <description>Diese Woche wurden zuerst Grundlagen geschaffen. Dieser Blog wird mit Hugo erstellt und aktualisiert. Hugo zum Laufen zu bringen, bzw. Bilder einzubinden war komplizierter als erwartet.
-Freitag wurde dann mit der Einrichtung von Unity begonnen&amp;hellip; und innerhalb einer Stunde abgeschlossen. </description>
     </item>
     
   </channel>

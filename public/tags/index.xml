@@ -4,20 +4,12 @@
     <title>Tags on Blog: Interaktion in Virtuellen und Augmentierten Welten</title>
     <link>https://Nendia.github.io/ARVR/tags/</link>
     <description>Recent content in Tags on Blog: Interaktion in Virtuellen und Augmentierten Welten</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://Nendia.github.io/ARVR/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>grundlagen</title>
-      <link>https://Nendia.github.io/ARVR/tags/grundlagen/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://Nendia.github.io/ARVR/tags/grundlagen/</guid>
-      <description></description>
-    </item>
-    
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 05 Nov 2022 19:56:20 +0100</lastBuildDate><atom:link href="https://Nendia.github.io/ARVR/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>platzhalter</title>
       <link>https://Nendia.github.io/ARVR/tags/platzhalter/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 05 Nov 2022 19:56:20 +0100</pubDate>
       
       <guid>https://Nendia.github.io/ARVR/tags/platzhalter/</guid>
       <description></description>
@@ -26,9 +18,18 @@
     <item>
       <title>roll a ball</title>
       <link>https://Nendia.github.io/ARVR/tags/roll-a-ball/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 05 Nov 2022 19:56:00 +0100</pubDate>
       
       <guid>https://Nendia.github.io/ARVR/tags/roll-a-ball/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>grundlagen</title>
+      <link>https://Nendia.github.io/ARVR/tags/grundlagen/</link>
+      <pubDate>Tue, 01 Nov 2022 17:15:07 +0100</pubDate>
+      
+      <guid>https://Nendia.github.io/ARVR/tags/grundlagen/</guid>
       <description></description>
     </item>
     
