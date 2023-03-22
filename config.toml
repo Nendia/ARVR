@@ -14,7 +14,7 @@ DefaultContentLanguageInSubdir = true
     [languages.de.params]
       introTitle = "Hallo, ich bin Nadine Völkl"
       introSubtitle = "Teilzeitstudentin im Bachelor of Education Informatik und Master of Education Deutsch und Teilzeitlehrerin für die Fächer Informatik und Deutsch an einem beruflichen Gymnasium"
-      introPhoto = "/profilbild_2.jpg"
+      introPhoto = "profilbild_2.jpg"
       logo = "blist-logo.png"
     [[languages.de.menu.main]]
         name = "Blog"
@@ -23,7 +23,7 @@ DefaultContentLanguageInSubdir = true
 
     [[languages.de.menu.main]]
         name = "Über mich"
-        url = "/ARVR/" #"page/about/"
+        url = "/" #"page/about/"
         weight = 2
 
     #[[languages.de.menu.main]]
