@@ -1,5 +1,6 @@
 name: github pages
 
+
 on:
   push:
     branches:
@@ -22,6 +23,7 @@ jobs:
           # extended: true
 
       - name: Build
+     
         run: hugo --minify
 
       - name: Deploy
