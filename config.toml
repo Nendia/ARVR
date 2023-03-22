@@ -10,7 +10,7 @@ DefaultContentLanguage = "de"
 DefaultContentLanguageInSubdir = true
 [languages]
   [languages.de]
-    contentDir = "/ARVR/content/de" #Deutsch
+    contentDir = "/content/de" #Deutsch
     weight = 1
     languageName = "Deutsch"
     [languages.de.params]
