@@ -6,7 +6,10 @@ on:
     branches:
       - main  # Set a branch to deploy
   pull_request:
-  
+
+permissions: write-all
+
+
 jobs:
   deploy:
     runs-on: ubuntu-22.04
