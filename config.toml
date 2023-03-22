@@ -2,13 +2,13 @@ baseurl = 'https://Nendia.github.io/ARVR'
 metaDataFormat = "yaml"
 title = "Blog: Interaktion in Virtuellen und Augmentierten Welten"
 theme = "blist"
-publishDir = "docs"
+publishDir = "ARVR/docs"
 
 DefaultContentLanguage = "de"
 DefaultContentLanguageInSubdir = true
 [languages]
   [languages.de]
-    contentDir = "content/de" #Deutsch
+    contentDir = "ARVR/content/de" #Deutsch
     weight = 1
     languageName = "Deutsch"
     [languages.de.params]
