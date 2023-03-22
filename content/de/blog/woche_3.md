@@ -1,8 +1,8 @@
 ---
 author: "Nadine Völkl"
 title: "Woche 3"
-date: 2022-11-05
-lastmod: 2023-03-21
+date: 2022-11-05T
+lastmod: 2023-03-21T
 description: "Woche 3"
 tags: ["platzhalter"]
 thumbnail: #/img/woche_1/vr_ar_setup.png

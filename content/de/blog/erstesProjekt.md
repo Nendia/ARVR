@@ -1,8 +1,8 @@
 ---
 author: "Nadine Völkl"
 title: "Woche 2"
-date: 2022-11-05
-lastmod: 2023-03-21
+date: 2022-11-05T
+lastmod: 2023-03-21T
 description: "Das erste Projekt"
 tags: ["roll a ball"]
 thumbnail: /img/woche_2/erstes_Projekt.png

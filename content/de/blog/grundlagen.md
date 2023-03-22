@@ -1,8 +1,8 @@
 ---
 author: "Nadine Völkl"
 title: "Woche 1"
-date: 2022-11-01
-lastmod: 2023-03-20
+date: 2022-11-01T
+lastmod: 2023-03-20T
 description: "Grundlagen"
 tags: ["grundlagen"]
 thumbnail: /img/woche_1/vr_ar_setup.png
