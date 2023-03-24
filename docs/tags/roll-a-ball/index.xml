@@ -8,11 +8,12 @@
     <lastBuildDate>Sat, 05 Nov 2022 19:56:00 +0100</lastBuildDate><atom:link href="https://Nendia.github.io/ARVR/tags/roll-a-ball/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Woche 2</title>
-      <link>https://Nendia.github.io/ARVR/blog/erstesprojekt/</link>
+      <link>https://Nendia.github.io/ARVR/blog/woche_2/</link>
       <pubDate>Sat, 05 Nov 2022 19:56:00 +0100</pubDate>
       
-      <guid>https://Nendia.github.io/ARVR/blog/erstesprojekt/</guid>
-      <description>Das erste Projekt! Natürlich mit Hilfe eines Tutorials, aber nach ca. 10 Stunden Arbeit lief es dann endlich.</description>
+      <guid>https://Nendia.github.io/ARVR/blog/woche_2/</guid>
+      <description>Die Vorlesung dieser Woche brachte uns die Geschichte der Augmented, bzw. Virtual Reality näher. In der dazugehörigen Übung durften wir nun mit dem ersten Projekt starten. Natürlich mit Hilfe eines Tutorials, aber ohne dieses wäre das Verständnis zu Unity noch schwieriger gewesen zu bilden.
+Alle erstellten Projekte dieses Seminars sollten auf auf einer Meta Quest 2laufen. Ziel des ersten Projekts war es, ein Spielbrett zu gestalten, auf dem sich ein Ball und mehrere Würfel befinden.</description>
     </item>
     
   </channel>

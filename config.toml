@@ -18,7 +18,7 @@ DefaultContentLanguageInSubdir = true
       introSubtitle = "Teilzeitstudentin im Bachelor of Education Informatik und Master of Education Deutsch und Teilzeitlehrerin für die Fächer Informatik und Deutsch an einem beruflichen Gymnasium"
       introPhoto = "profilbild_2.jpg"
       logo = "home-logo.png"
-    [[languages.de.menu.main]]
+    [[languages.de.menu.main]]	
         name = "Blog"
         url = "blog"
         weight = 1
@@ -169,7 +169,7 @@ DefaultContentLanguageInSubdir = true
 [params.homepage.social]
   # Global params common for both languages
   title = "Social Media"
-  description = "Bunte Mischung aus Lehreralltag und Studienverlauf"
+  description = "Bunte Mischung aus Lehreralltag, Studienverlauf und Rattencontent"
 
   [[params.homepage.social.icons]]
     website = "twitter"
