@@ -1,8 +1,8 @@
 ---
 author: "Nadine Völkl"
 title: "Woche 4"
-date: 2022-11-05T19:56:20+01:00
-lastmod: 2023-03-21T19:56:20+01:00
+date: 2022-11-22T16:00:00+01:00
+lastmod: 2023-03-23T17:00:00+01:00
 description: "Importieren und Umbauen des roll-a-ball"
 tags: ["importieren, Brainstorming"]
 thumbnail: #/img/woche_1/vr_ar_setup.png

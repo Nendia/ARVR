@@ -1,8 +1,8 @@
 ---
 author: "Nadine Völkl"
 title: "Woche 3"
-date: 2022-11-05T19:56:20+01:00
-lastmod: 2023-03-21T19:56:20+01:00
+date: 2022-11-12T19:56:20+01:00
+lastmod: 2023-03-22T19:00:00+01:00
 description: "Erste Schritte in VR"
 tags: ["HMD, erste Schritte"]
 thumbnail: #/img/woche_1/vr_ar_setup.png
