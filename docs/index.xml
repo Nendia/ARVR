@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>home-logo.png</title>
+    <title>Home</title>
     <link>https://Nendia.github.io/ARVR/</link>
-    <description>Recent content on home-logo.png</description>
+    <description>Recent content on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 24 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Nendia.github.io/ARVR/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -14,6 +14,16 @@
       <guid>https://Nendia.github.io/ARVR/page/about/</guid>
       <description>Hier Kurzinformationen über Dini hinzufügen
 Diese Seite ist aktuell in Bearbeitung.</description>
+    </item>
+    
+    <item>
+      <title>Woche 8</title>
+      <link>https://Nendia.github.io/ARVR/blog/woche_8/</link>
+      <pubDate>Mon, 19 Dec 2022 21:00:00 +0100</pubDate>
+      
+      <guid>https://Nendia.github.io/ARVR/blog/woche_8/</guid>
+      <description>Nachdem nun die grobe Idee für das Projekt feststand sollte diese auch den restlichen Seminarteilnehmern gepitched werden. Dies war der erste Pitch des Projekts:
+getting_used_to_rats_1.PNG getting_used_to_rats_2.PNG getting_used_to_rats_3.PNG getting_used_to_rats_4.PNG getting_used_to_rats_5.PNG getting_used_to_rats_6.PNG</description>
     </item>
     
     <item>

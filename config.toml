@@ -1,6 +1,6 @@
 baseurl = 'https://Nendia.github.io/ARVR'
 metaDataFormat = "yaml"
-title = "home-logo.png"
+title = "Home"
 theme = "blist"
 publishDir = "docs"
 relativeURLs = true
