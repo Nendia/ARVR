@@ -25,4 +25,4 @@ Die folgenden fünf Ideen standen für mich am Ende des Brainstormings zur Auswa
 * Lernspiel, bei dem die Gebärdensprache spielerisch erlernt wird
 * Koordinationsspiel, bei welchem die Koordination zwischen Füßen und Händen geübt werden soll
 
-Da ich mit der Umsetzung des Projekts erst im Januar beginnen konnte, wurden die Ideen jede Woche erneut evaluiert und im Zweifelsfall gestrichen oder angepasst.
+Da ich mit der Umsetzung des Projekts erst im Januar beginnen konnte, werden die Ideen jede Woche erneut evaluiert und im Zweifelsfall gestrichen oder angepasst.
