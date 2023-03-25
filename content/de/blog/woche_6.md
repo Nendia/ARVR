@@ -3,7 +3,7 @@ author: "Nadine Völkl"
 title: "Woche 6"
 date: 2022-12-05T21:00:00+01:00
 lastmod: 2023-03-24T18:36:20+01:00
-description: "Brainstorming und Cybersickness"
+description: "Brainstorming und Cybersickness" 
 tags: ["Projektideen, Cybersickness"]
 thumbnail: #/img/woche_1/vr_ar_setup.png
 ---
@@ -11,7 +11,7 @@ thumbnail: #/img/woche_1/vr_ar_setup.png
 Themen dieser Woche waren im Wesentlichen die menschliche Warnehmung, sowie Cybersickness und was man bei seinem Projekt beachten sollte, um diese zu verhindern. 
 Mit diesem neuen Wissen wurden meine Projektideen noch einmal überarbeitet.
 
-![alt text](/img/woche_5/zweites_brainstorming.png"Screenshot der einen Überblick über die unten aufgelisteten Ideen aus dem Brainstorming gibt.")
+![alt text](/img/woche_6/zweites_brainstorming.png "Screenshot der einen Überblick über die unten aufgelisteten Ideen aus dem Brainstorming gibt.")
 
 Die Ideen ließen sich im Prinzip in drei Bereiche einteilen:
 * Lernspiel

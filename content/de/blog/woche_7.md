@@ -9,23 +9,9 @@ thumbnail: #/img/woche_1/vr_ar_setup.png
 ---
 
 Bei der Besprechung der Themen 'Tracking Devices' und 'Controls' habe ich für mein Projekt entschieden, dass der Parcour gänzlich mit Gestenerkennung umgesetzt werden soll. 
-Auch wenn das <!-- hier ende -->
+Bei der Überlegung diesbezüglich wurde beachtet, dass aufgrund der Gestenerkennung jede\*r Teilnehmer\*in die Möglichkeit benötigt mit der Hand mindestens sechs Gesten zu formen. Sofern die Person jedoch mindestens drei Finger an der rechten Hand besitzt ist das möglich. Ein Linkshandsupport ist geplant, wird aber einiges an Zeit benötigen.
 
-Themen dieser Woche waren im Wesentlichen die menschliche Warnehmung, sowie Cybersickness und was man bei seinem Projekt beachten sollte, um diese zu verhindern. 
-Mit diesem neuen Wissen wurden meine Projektideen noch einmal überarbeitet.
+Ein erstes Brainstorming bezüglich der möglichen Gesten ergab folgende Ideen:
+![alt text](/img/woche_7/Handgesten_Text.png "Die Bewegungen die der Spielcharakter können soll mit dazu passenden Handformen. Stehen: flache Hand, Handinnenfläche nach unten zeigend, Gehen: flache Hand, Handinnenfläche nach oben zeigend, Laufen: beide Hände wie bei gehen, Springen: Fingerschnicken wie ein Heranwinken, Aufstehen: flache Hand, Handinnenfläche nach unten zeigend, Herunterbücken: beide Hände wie bei aufstehen, Aufheben: Hand aufrecht stellen, als würde man jemandem die Hand geben")
 
-![alt text](/img/woche_5/zweites_brainstorming.png"Screenshot der einen Überblick über die unten aufgelisteten Ideen aus dem Brainstorming gibt.")
-
-Die Ideen ließen sich im Prinzip in drei Bereiche einteilen:
-* Lernspiel
-* Logiktraining
-* Koordinationsspiel
-
-Die folgenden fünf Ideen standen für mich am Ende des Brainstormings zur Auswahl:
-* Lernspiel, bei dem sich Wissen angeeignet wird welches am Ende für Studienzwecke überprüft wird
-* Lernspiel, das helfen soll Ekel, Ängste und Phobien abzutrainieren
-* Logiktraining, welches kleine Rätsel beinhaltet
-* Lernspiel, bei dem die Gebärdensprache spielerisch erlernt wird
-* Koordinationsspiel, bei welchem die Koordination zwischen Füßen und Händen geübt werden soll
-
-Da ich mit der Umsetzung des Projekts erst im Januar beginnen konnte, wurden die Ideen jede Woche erneut evaluiert und im Zweifelsfall gestrichen oder angepasst.
+![alt text](/img/woche_7/Handgesten.png "Die Bewegungen die der Spielcharakter können soll mit dazu passenden Handformen. Gehen: flache Hand, Handinnenfläche nach oben zeigend, Laufen: beide Hände wie bei gehen, Springen: Kopf nicken, Aufstehen: flache Hand, Handinnenfläche nach unten zeigend, Herunterbücken: beide Hände wie bei aufstehen, Aufheben: mit der Hand ein 'Mäulchen' formen, Gegenstände drehen: entweder mit der Hand, oder wenn das zu einfach ist mit dem Kopf")
