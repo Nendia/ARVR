@@ -8,7 +8,7 @@ tags: ["Parcourumbau, Gestenerkennung, Posenerkennung"]
 thumbnail: #/img/woche_1/vr_ar_setup.png
 ---
 
-Hauptthemen dieser Woche waren Presence und Perception in VR. Fokus lag hierbei darauf, wieso Perception in VR wichtig ist, als auch welche Faktoren Perception beeinflusst und wie man diese messen kann.
+Hauptthemen dieser Woche waren Presence und Perception in VR. Fokus lag hierbei darauf, wieso Perception in VR wichtig ist, als auch welche Faktoren Perception beeinflussen und wie man diese messen kann.
 
 Nachdem in der letzten Woche Feedback zur Projektidee eingeholt wurde, konnte ich nun endlich mit dem Projekt starten.
 Step 1 war es, die Vorlage des Parcours in Unity zu laden und diese auf die passende Größe anzupassen. 

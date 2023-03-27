@@ -12,6 +12,19 @@ Dank der Vorlesung ist mir nun bewusst: Haptisches Feedback in VR wird in die Be
 
 Für mein Projekt musste zuerst noch eine passende Ratte gefunden werden. Hierbei wurde der Fokus darauf gelegt, diese Ratte nicht noch animieren, bzw. riggen zu müssen. Nach längerer Recherche fand sich folgende Ratte:
 
+{{< rawhtml >}} 
+
+<video controls>
+    <source src="/img/woche_10/rat_pr_1.mp4" type="video/mp4">
+    Your browser does not support the video tag.  
+</video>
+
+<video controls>
+    <source src="/img/woche_10/rat_pr_2.mp4" type="video/mp4">
+    Your browser does not support the video tag.  
+</video>
+
+{{< /rawhtml >}}
 
 [Animierte Ratte auf renderhub.com](https://www.renderhub.com/mikserart/rat-12-animations-game-ready-props-low-poly-3d-model)
 
