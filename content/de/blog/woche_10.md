@@ -4,29 +4,21 @@ title: "Woche 10"
 date: 2023-01-25T12:00:00+01:00
 lastmod: 2023-03-27T18:57:00+01:00
 description: "Umzug in Git und Finalisierung der Posenerkennung"
-tags: ["Umzug in Git, Posenerkennung"]
+tags: ["Umzug in Git, Posenerkennung, Rattenmodelsuche"]
 thumbnail: #/img/woche_1/vr_ar_setup.png
 ---
 
-Haptisches Feedback in VR wird in die Bereiche: activ haptics, passive haptics und pseudo haptics aufgesplittet. Zusätzlich wurden die Themen Tracking Devices und Interaction Techniques erneut in der Vorlesung aufgegriffen. 
+Dank der Vorlesung ist mir nun bewusst: Haptisches Feedback in VR wird in die Bereiche activ haptics, passive haptics und pseudo haptics aufgesplittet. Zusätzlich wurden die Themen Tracking Devices und Interaction Techniques erneut aufgegriffen. 
 
 Für mein Projekt musste zuerst noch eine passende Ratte gefunden werden. Hierbei wurde der Fokus darauf gelegt, diese Ratte nicht noch animieren, bzw. riggen zu müssen. Nach längerer Recherche fand sich folgende Ratte:
 
-{{< rawhtml >}} 
-
-<video controls>
-    <source src="/img/woche_10/rat_pr_1.mp4" type="video/mp4">
-    Your browser does not support the video tag.  
-</video>
-
-<video controls>
-    <source src="/img/woche_10/rat_pr_2.mp4" type="video/mp4">
-    Your browser does not support the video tag.  
-</video>
-
-{{< /rawhtml >}}
 
 [Animierte Ratte auf renderhub.com](https://www.renderhub.com/mikserart/rat-12-animations-game-ready-props-low-poly-3d-model)
+
+Das tollste: Sie kam direkt mit Animationen und war komplett gerigged. 
+Ein Nachteil der Animationen war allerdings, dass die Ratte diese Animationen nicht auf der Stelle macht, sondern sich das Model tatsächlich bewegt, also die Position in VR verändert. Hierauf musste geachtet werden, sobald es an die Bewegung der Ratte in VR ging.
+
+
 
 
 

@@ -22,9 +22,9 @@ Diese Seite ist aktuell in Bearbeitung.</description>
       <pubDate>Wed, 25 Jan 2023 12:00:00 +0100</pubDate>
       
       <guid>https://Nendia.github.io/ARVR/blog/woche_10/</guid>
-      <description>Haptisches Feedback in VR wird in die Bereiche: activ haptics, passive haptics und pseudo haptics aufgesplittet. Zusätzlich wurden die Themen Tracking Devices und Interaction Techniques erneut in der Vorlesung aufgegriffen.
+      <description>Dank der Vorlesung ist mir nun bewusst: Haptisches Feedback in VR wird in die Bereiche activ haptics, passive haptics und pseudo haptics aufgesplittet. Zusätzlich wurden die Themen Tracking Devices und Interaction Techniques erneut aufgegriffen.
 Für mein Projekt musste zuerst noch eine passende Ratte gefunden werden. Hierbei wurde der Fokus darauf gelegt, diese Ratte nicht noch animieren, bzw. riggen zu müssen. Nach längerer Recherche fand sich folgende Ratte:
-Your browser does not support the video tag.</description>
+Animierte Ratte auf renderhub.</description>
     </item>
     
     <item>
@@ -74,7 +74,7 @@ Lernspiel, bei dem sich Wissen angeeignet wird welches am Ende für Studienzweck
       
       <guid>https://Nendia.github.io/ARVR/blog/woche_5/</guid>
       <description>Endlich gab es die Einweisung in die eigentliche Semesteraufgabe. Wir bekamen eine Unity-Vorlage für einen Parcour.
-Ziel: Eine eigene Locomotion Technique überlegen und diese so umsetzen, dass unsere Studienteilnehmer*innen* den Parcour damit durchführen können.
+Ziel: Eine eigene Locomotion Technique überlegen und diese so umsetzen, dass unsere Studienteilnehmer*innen den Parcour damit durchführen können.
 Hierbei sollten wir eine Möglichkeit haben den Spieler vorwärts zu bewegen und zusätzlich sollte es eine Möglichkeit geben die Interaction Task zu erledigen. In der Interaction Task muss die spielende Person das dargstellte T auf die leicht durchsichtige Fläche bewegen.</description>
     </item>
     
