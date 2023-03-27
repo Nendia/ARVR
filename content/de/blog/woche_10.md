@@ -29,27 +29,32 @@ Für mein Projekt musste zuerst noch eine passende Ratte gefunden werden. Hierbe
 [Animierte Ratte auf renderhub.com](https://www.renderhub.com/mikserart/rat-12-animations-game-ready-props-low-poly-3d-model)
 
 Das tollste: Sie kam direkt mit Animationen und war komplett gerigged. 
-Ein Nachteil der Animationen war allerdings, dass die Ratte diese Animationen nicht auf der Stelle macht, sondern sich das Model tatsächlich bewegt, also die Position in VR verändert. Hierauf musste geachtet werden, sobald es an die Bewegung der Ratte in VR ging.
+Ein Nachteil der Animationen war allerdings, dass die Ratte diese Animationen nicht auf der Stelle macht, sondern sich das Model tatsächlich bewegt, also die Position in Unity verändert wird. Hierauf musste geachtet werden, sobald es an die Bewegung der Ratte in VR ging.
 
+Einen Tag später waren dann auch alle Animationen geschnitten und passend benannt. 
 
+![alt text](/img/woche_10/animationen.png "Screenshot aller Animationen im Explorer")
 
+Der nächste Schritt war, die Ratte "auf Befehle horchen zu lassen". Sofern der GestureDetector die Handposition für "Laufen" erkennt sollte also die Animation für "Laufen" abgespielt werden. Das gleiche gilt für "Mach Männchen", "Aufheben", "Links drehen", "Rechts drehen", "Such".
+"Laufen" bewegte die Ratte nach vorne, bis die Handpose geändert wurde. "Links drehen" lässt die Ratte einen Bogen nach links laufen. "Rechts drehen" macht das selbe nach rechts. "Such" lässt die Ratte nach der nächsten Münze suchen und, falls eine in der Nähe ist, zu dieser laufen. "Mach Männchen" lässt sie auf die Hinterbeine gehen und diese Münze aufheben. "Aufheben" wird lediglich für die Interaction Tasks benötigt. Damit wird dann das T aufgehoben und mit der Drehung der Hand in die richtige Position gedreht. 
 
+![alt text](/img/woche_10/switchCase.png "Screenshot des switch-case das unten beschrieben wird")
 
-<!-- Nachdem in der letzten Woche Feedback zur Projektidee eingeholt wurde, konnte ich nun endlich mit dem Projekt starten.
-Step 1 war es, die Vorlage des Parcours in Unity zu laden und diese auf die passende Größe anzupassen. 
-Da meine Projektidee darauf basiert, dass man nicht selbst die Spielfigur darstellt, sondern die eigentliche Figur per Gesten steuert benötigte ich einen Parcour der auf Rattengröße geschrumpft ist. Mit dem Wissen, das ich mir in den folgenden Wochen aneignen sollte, wäre diese Aufgabe innerhalb von kürzester Zeit gelöst gewesen. Da ich zu diesem Zeitpunkt allerdings noch nicht viel mit Unity gearbeitet hatte, nahm dieser Umbau einen kompletten Arbeitstag in Anspruch (und sollte zu einem späteren Zeitpunkt erneut wiederholt werden).
+Laufen, sowie links und rechts drehen waren recht schnell implementiert. Zu diesem Zeitpunkt war alles noch mit einem if-else modelliert, dies wurde später allerdings in ein switch-case geändert, um die Übersichtlichkeit zu wahren. Alle drei Befehle rufen die gleiche Funktion auf, mit dem einzigen Unterschied, dass eine Rotationsvariable verändert übergeben wird. 
 
-![alt text](/img/woche_9/parcour.png "Ein Parcour in Form einer Straße die ringförmig verläuft. Auf der einen Seite läuft sie in S-Linien entlang, auf der anderen in einer geraden Linie. Sie befindet sich auf einer grünen Fläche mit einem Fluss und mehreren Gebäuden.")
+![alt text](/img/woche_10/bewegung.png "Screenshot der oben beschriebenen Funktion Bewegung")
 
-Step 2 beinhaltete den komplexesten Teil des Projekts - die Gestenerkennung. Hierbei hangelte ich mich zuerst an diversen Tutorials entlang. Trotz der Tutorials dauerte es mehrere Tage, bis ich eine funktionierende Posenerkennung hatte. Aus der geplanten Gestenerkennung wurde aufgrund der Umsetzbarkeit eine Posenerkennung, die keine Bewegungen beinhaltet, sondern nur die Pose der Hand zu einem bestimmten Zeitpunkt speichert. Die Posenerkennung funktionierte anschließend zwar und Unity gab mir in der Konsole Text aus, sofern es eine Handpose erkannt hatte, mit dieser erkannten Pose eine virtuelle Ratte zu bewegen sollte allerdings noch ein sehr langer Weg sein. 
+"Such" wurde mit Hilfe von weiteren Collidern, welche sich an den Münzen befinden, umgesetzt. Sofern die Ratte mit ihrem Collider die Münze und deren Collider trifft, wird die Münze in die Liste coinpositions hinzugefügt. 
 
-[Hand Tracking Gesture Detection - Unity Oculus Quest Tutorial von Valem](https://www.youtube.com/watch?v=lBzwUKQ3tbw)
+![alt text](/img/woche_10/findNearestCoin_script.png "Screenshot der unten beschriebenen Funktion finNearestCoin")
 
-[HAND TRACKING with the Oculus Quest - Unity Tutorial von Valem](https://www.youtube.com/watch?v=vSia7t_WlbQ&list=PLrk7hDwk64-Y7ELKfkw8ox8TaT9y3gNpS&index=11)
+Die Funktion "findNearestCoin" kontrolliert dann, ob in der Liste eine Münze existiert und gibt die Position der Münze mit der kürzesten Distanz zur Ratte zurück. Dieser Rückgabewert ist dann die Position an die die Ratte bewegt wird. "Mach Männchen" setzt die Münze dann auf inaktiv und zählt den Counter hoch.
+"Aufheben" sollte ein komplexeres Thema werden und wurde zuerst einmal auf der ToDo Liste weiter nach unten gesetzt.
 
-[Modified Gesture Detector for Hand Tracking - Unity - Oculus Quest von TotallyNotDevs](https://www.youtube.com/watch?v=TjBIEOFiqoI)
+![alt text](/img/woche_10/such.png "Ratte in VR, die unter einem Stück Käse auf allen Vieren steht.")
 
-Die auskommentierten Zeilen sind die ursprüngliche Gestenerkennung aus den oben genannten Tutorials. Hieran lässt sich auch erkennen, wie viel von mir angepasst werden musste, um mein Projekt funktionsfähig zu bekommen.
+Da das Spiel ja als Lernspiel gedacht war wurde die spontane Idee, die Münzen durch Käse zu ersetzen umgesetzt und erweitert. Die Münzen wurden also alle in Käsestücke umgewandelt und an Stelle der Münzen befinden sich nun Textboxen mit Rattenfakten. Diese tauchen auf, sobald der dazugehörige Käse "gegessen" wurde. Damit wurde nach dem Belohnungsprinzip gearbeitet und die Teilnehmer\*innen, bzw. Spieler\*innen werden mit Fakten belohnt, wenn sie die Ratte dazu bringen den Käse zu essen. 
 
-![alt text](/img/woche_9/gestureDetector.png "Screenshot der Datei 'GestureDetector.cs'")[GestureDetector](/img/woche_9/GestureDetector.cs ':include') -->
+![alt text](/img/woche_10/machMännchen_script.png "Screenshot der oben beschriebenen Funktion machMännchen")
 
+![alt text](/img/woche_10/machMännchen.png "Ratte in VR, die unter einer Textbox auf den Hinterbeinen steht.")
