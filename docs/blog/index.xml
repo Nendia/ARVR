@@ -5,11 +5,22 @@
     <link>https://Nendia.github.io/ARVR/blog/</link>
     <description>Recent content in Blog on Home</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 31 Dec 2022 18:00:00 +0100</lastBuildDate><atom:link href="https://Nendia.github.io/ARVR/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Jan 2023 12:00:00 +0100</lastBuildDate><atom:link href="https://Nendia.github.io/ARVR/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Woche 10</title>
+      <link>https://Nendia.github.io/ARVR/blog/woche_10/</link>
+      <pubDate>Wed, 25 Jan 2023 12:00:00 +0100</pubDate>
+      
+      <guid>https://Nendia.github.io/ARVR/blog/woche_10/</guid>
+      <description>Haptisches Feedback in VR wird in die Bereiche: activ haptics, passive haptics und pseudo haptics aufgesplittet. Zusätzlich wurden die Themen Tracking Devices und Interaction Techniques erneut in der Vorlesung aufgegriffen.
+Für mein Projekt musste zuerst noch eine passende Ratte gefunden werden. Hierbei wurde der Fokus darauf gelegt, diese Ratte nicht noch animieren, bzw. riggen zu müssen. Nach längerer Recherche fand sich folgende Ratte:
+Your browser does not support the video tag.</description>
+    </item>
+    
     <item>
       <title>Woche 9</title>
       <link>https://Nendia.github.io/ARVR/blog/woche_9/</link>
-      <pubDate>Sat, 31 Dec 2022 18:00:00 +0100</pubDate>
+      <pubDate>Sat, 07 Jan 2023 18:00:00 +0100</pubDate>
       
       <guid>https://Nendia.github.io/ARVR/blog/woche_9/</guid>
       <description>Hauptthemen dieser Woche waren Presence und Perception in VR. Fokus lag hierbei darauf, wieso Perception in VR wichtig ist, als auch welche Faktoren Perception beeinflusst und wie man diese messen kann.

@@ -29,11 +29,13 @@
       "rect",
       "script",
       "section",
+      "source",
       "span",
       "stop",
       "svg",
       "title",
-      "ul"
+      "ul",
+      "video"
     ],
     "classes": [
       "absolute",
