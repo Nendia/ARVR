@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projektideen, Steuerung on Home</title>
+    <link>https://Nendia.github.io/ARVR/tags/projektideen-steuerung/</link>
+    <description>Recent content in Projektideen, Steuerung on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 12 Dec 2022 21:00:00 +0100</lastBuildDate><atom:link href="https://Nendia.github.io/ARVR/tags/projektideen-steuerung/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Woche 7</title>
+      <link>https://Nendia.github.io/ARVR/blog/woche_7/</link>
+      <pubDate>Mon, 12 Dec 2022 21:00:00 +0100</pubDate>
+      
+      <guid>https://Nendia.github.io/ARVR/blog/woche_7/</guid>
+      <description>Bei der Besprechung der Themen &amp;lsquo;Tracking Devices&amp;rsquo; und &amp;lsquo;Controls&amp;rsquo; habe ich für mein Projekt entschieden, dass der Parcour gänzlich mit Gestenerkennung umgesetzt werden soll. Bei der Überlegung diesbezüglich wurde beachtet, dass aufgrund der Gestenerkennung jede*r Teilnehmer*in die Möglichkeit benötigt mit der Hand mindestens sechs Gesten zu formen. Sofern die Person jedoch mindestens drei Finger an der rechten Hand besitzt ist das möglich. Ein Linkshandsupport ist geplant, wird aber einiges an Zeit benötigen.</description>
+    </item>
+    
+  </channel>
+</rss>
