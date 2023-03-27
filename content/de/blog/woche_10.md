@@ -37,12 +37,13 @@ Einen Tag später waren dann auch alle Animationen geschnitten und passend benan
 
 Der nächste Schritt war, die Ratte "auf Befehle horchen zu lassen". 
 Sofern der GestureDetector die Handposition für "Laufen" erkennt sollte also die Animation für "Laufen" abgespielt werden. Das gleiche gilt für "Mach Männchen", "Aufheben", "Links drehen", "Rechts drehen", "Such".
-*"Laufen" bewegte die Ratte nach vorne, bis die Handpose geändert wurde. 
-*"Links drehen" lässt die Ratte einen Bogen nach links laufen. 
-*"Rechts drehen" macht das selbe nach rechts. 
-*"Such" lässt die Ratte nach der nächsten Münze suchen und, falls eine in der Nähe ist, zu dieser laufen. 
-*"Mach Männchen" lässt sie auf die Hinterbeine gehen und diese Münze aufheben. 
-*"Aufheben" wird lediglich für die Interaction Tasks benötigt. Damit wird dann das T aufgehoben und mit der Drehung der Hand in die richtige Position gedreht. 
+
+* "Laufen" bewegte die Ratte nach vorne, bis die Handpose geändert wurde. 
+* "Links drehen" lässt die Ratte einen Bogen nach links laufen. 
+* "Rechts drehen" macht das selbe nach rechts. 
+* "Such" lässt die Ratte nach der nächsten Münze suchen und, falls eine in der Nähe ist, zu dieser laufen. 
+* "Mach Männchen" lässt sie auf die Hinterbeine gehen und diese Münze aufheben. 
+* "Aufheben" wird lediglich für die Interaction Tasks benötigt. Damit wird dann das T aufgehoben und mit der Drehung der Hand in die richtige Position gedreht. 
 
 ![alt text](/img/woche_10/switchCase.png "Screenshot des switch-case das unten beschrieben wird")
 
