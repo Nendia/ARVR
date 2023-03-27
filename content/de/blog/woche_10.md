@@ -14,8 +14,13 @@ Für mein Projekt musste zuerst noch eine passende Ratte gefunden werden. Hierbe
 
 {{< rawhtml >}} 
 
-<video>
-    <source src="/img/woche_10/rat_pr.mp4" type="video/mp4">
+<video controls>
+    <source src="/img/woche_10/rat_pr_1.mp4" type="video/mp4">
+    Your browser does not support the video tag.  
+</video>
+
+<video controls>
+    <source src="/img/woche_10/rat_pr_2.mp4" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
 
