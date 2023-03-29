@@ -32,7 +32,7 @@
   <meta itemprop="name" content="Woche 10">
 <meta itemprop="description" content="Umzug in Git und Finalisierung der Posenerkennung"><meta itemprop="datePublished" content="2023-01-25T12:00:00+01:00" />
 <meta itemprop="dateModified" content="2023-03-27T18:57:00+01:00" />
-<meta itemprop="wordCount" content="503">
+<meta itemprop="wordCount" content="534">
 <meta itemprop="keywords" content="Umzug in Git, Posenerkennung, Rattenmodelsuche," />
 
   
@@ -132,7 +132,7 @@
         <line x1="12" y1="6" x2="12" y2="19" />
         <line x1="21" y1="6" x2="21" y2="19" />
       </svg>
-      503&nbsp;
+      534&nbsp;
       
     </h5>
     
@@ -168,8 +168,8 @@ Sofern der GestureDetector die Handposition für &ldquo;Laufen&rdquo; erkennt so
 
 <ul>
 <li>"Laufen" bewegte die Ratte nach vorne, bis die Handpose geändert wurde. </li>
-<li>"Links drehen" lässt die Ratte einen Bogen nach links laufen.</li> 
-<li>"Rechts drehen" macht das selbe nach rechts. </li>
+<li>"nach Links drehen" lässt die Ratte einen Bogen nach links laufen.</li> 
+<li>"nach Rechts drehen" macht das selbe nach rechts. </li>
 <li>"Such" lässt die Ratte nach der nächsten Münze suchen und, falls eine in der Nähe ist, zu dieser laufen. </li>
 <li>"Mach Männchen" lässt sie auf die Hinterbeine gehen und diese Münze aufheben. </li>
 <li>"Aufheben" wird lediglich für die Interaction Tasks benötigt. Damit wird dann das T aufgehoben und mit der Drehung der Hand in die richtige Position gedreht. </li>
@@ -184,7 +184,7 @@ Sofern der GestureDetector die Handposition für &ldquo;Laufen&rdquo; erkennt so
 <p>Die Funktion &ldquo;findNearestCoin&rdquo; kontrolliert dann, ob in der Liste eine Münze existiert und gibt die Position der Münze mit der kürzesten Distanz zur Ratte zurück. Dieser Rückgabewert ist dann die Position an die die Ratte bewegt wird. &ldquo;Mach Männchen&rdquo; setzt die Münze dann auf inaktiv und zählt den Counter hoch.
 &ldquo;Aufheben&rdquo; sollte ein komplexeres Thema werden und wurde zuerst einmal auf der ToDo Liste weiter nach unten gesetzt.</p>
 <p><img src="../../img/woche_10/such.png" alt="alt text" title="Ratte in VR, die unter einem Stück Käse auf allen Vieren steht."></p>
-<p>Da das Spiel ja als Lernspiel gedacht war, wurde die spontane Idee, die Münzen durch Käse zu ersetzen umgesetzt und erweitert. Die Münzen wurden also alle in Käsestücke umgewandelt und an Stelle der Münzen befinden sich nun Textboxen mit Rattenfakten. Diese tauchen auf, sobald der dazugehörige Käse &ldquo;gegessen&rdquo; wurde. Damit wurde nach dem Belohnungsprinzip gearbeitet und die Teilnehmer*innen, bzw. Spieler*innen werden mit Fakten &ldquo;belohnt&rdquo;, wenn sie die Ratte dazu bringen den Käse zu essen.</p>
+<p>Da das Spiel ja als Lernspiel gedacht war, wurde die spontane Idee, die Münzen durch Käse zu ersetzen umgesetzt und erweitert. Die Münzen wurden also alle in Käsestücke umgewandelt und an Stelle der Münzen befinden sich nun Textboxen mit Rattenfakten. Diese tauchen auf, sobald der dazugehörige Käse &ldquo;gegessen&rdquo; wurde. Um anschließend die Tipps im Spiel wiederfinden zu können wurden aus den Käsestücke Käseleiber. Sobald die Ratte den Käseleib &ldquo;gefressen&rdquo; hatte wurde er ausgeblendet und stattdessen ein Käsestück eingeblendet. Damit wurde nach dem Belohnungsprinzip gearbeitet und die Teilnehmer*innen, bzw. Spieler*innen werden mit Fakten &ldquo;belohnt&rdquo;, wenn sie die Ratte dazu bringen den Käse zu essen.</p>
 <p><img src="../../img/woche_10/machM%C3%A4nnchen_script.png" alt="alt text" title="Screenshot der oben beschriebenen Funktion machMännchen"></p>
 <p><img src="../../img/woche_10/machM%C3%A4nnchen.png" alt="alt text" title="Ratte in VR, die unter einer Textbox auf den Hinterbeinen steht."></p>
 

@@ -42,8 +42,8 @@ Sofern der GestureDetector die Handposition für "Laufen" erkennt sollte also di
 
 <ul>
 <li>"Laufen" bewegte die Ratte nach vorne, bis die Handpose geändert wurde. </li>
-<li>"Links drehen" lässt die Ratte einen Bogen nach links laufen.</li> 
-<li>"Rechts drehen" macht das selbe nach rechts. </li>
+<li>"nach Links drehen" lässt die Ratte einen Bogen nach links laufen.</li> 
+<li>"nach Rechts drehen" macht das selbe nach rechts. </li>
 <li>"Such" lässt die Ratte nach der nächsten Münze suchen und, falls eine in der Nähe ist, zu dieser laufen. </li>
 <li>"Mach Männchen" lässt sie auf die Hinterbeine gehen und diese Münze aufheben. </li>
 <li>"Aufheben" wird lediglich für die Interaction Tasks benötigt. Damit wird dann das T aufgehoben und mit der Drehung der Hand in die richtige Position gedreht. </li>
@@ -66,7 +66,7 @@ Die Funktion "findNearestCoin" kontrolliert dann, ob in der Liste eine Münze ex
 
 ![alt text](/img/woche_10/such.png "Ratte in VR, die unter einem Stück Käse auf allen Vieren steht.")
 
-Da das Spiel ja als Lernspiel gedacht war, wurde die spontane Idee, die Münzen durch Käse zu ersetzen umgesetzt und erweitert. Die Münzen wurden also alle in Käsestücke umgewandelt und an Stelle der Münzen befinden sich nun Textboxen mit Rattenfakten. Diese tauchen auf, sobald der dazugehörige Käse "gegessen" wurde. Damit wurde nach dem Belohnungsprinzip gearbeitet und die Teilnehmer\*innen, bzw. Spieler\*innen werden mit Fakten "belohnt", wenn sie die Ratte dazu bringen den Käse zu essen. 
+Da das Spiel ja als Lernspiel gedacht war, wurde die spontane Idee, die Münzen durch Käse zu ersetzen umgesetzt und erweitert. Die Münzen wurden also alle in Käsestücke umgewandelt und an Stelle der Münzen befinden sich nun Textboxen mit Rattenfakten. Diese tauchen auf, sobald der dazugehörige Käse "gegessen" wurde. Um anschließend die Tipps im Spiel wiederfinden zu können wurden aus den Käsestücke Käseleiber. Sobald die Ratte den Käseleib "gefressen" hatte wurde er ausgeblendet und stattdessen ein Käsestück eingeblendet. Damit wurde nach dem Belohnungsprinzip gearbeitet und die Teilnehmer\*innen, bzw. Spieler\*innen werden mit Fakten "belohnt", wenn sie die Ratte dazu bringen den Käse zu essen. 
 
 ![alt text](/img/woche_10/machMännchen_script.png "Screenshot der oben beschriebenen Funktion machMännchen")
 
