@@ -17,6 +17,17 @@ Diese Seite ist aktuell in Bearbeitung.</description>
     </item>
     
     <item>
+      <title>Woche 12</title>
+      <link>https://Nendia.github.io/ARVR/blog/woche_12/</link>
+      <pubDate>Mon, 06 Feb 2023 12:00:00 +0100</pubDate>
+      
+      <guid>https://Nendia.github.io/ARVR/blog/woche_12/</guid>
+      <description>Da in dieser Woche die finale Vorstellung des Projektes anstand wurden am Projekt nur noch ein paar finale Schliffe gemacht und probeweise ein Proband gebeten den Parcour einmal zu machen. Der Proband wurde natürlich nicht in die eigentliche Studie einbezogen.
+Die Abschlusspräsentation wurde gehalten, bevor die Miniaturstudie durchgeführt wurde, weshalb das Logging erst nach der Abschlusspräsentation in das Projekt eingepflegt wurde.
+Das Einbinden des Loggings war dank JSON sehr einfach möglich.</description>
+    </item>
+    
+    <item>
       <title>Woche 11</title>
       <link>https://Nendia.github.io/ARVR/blog/woche_11/</link>
       <pubDate>Fri, 03 Feb 2023 18:00:00 +0100</pubDate>
