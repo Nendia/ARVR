@@ -180,7 +180,7 @@ Sofern der GestureDetector die Handposition für &ldquo;Laufen&rdquo; erkennt so
 <p>Laufen, sowie links und rechts drehen waren recht schnell implementiert. Zu diesem Zeitpunkt war alles noch mit einem if-else modelliert, dies wurde später allerdings in ein switch-case geändert, um die Übersichtlichkeit zu wahren. Alle drei Befehle rufen die gleiche Funktion auf, mit dem einzigen Unterschied, dass eine Rotationsvariable verändert übergeben wird.</p>
 <p><img src="../../img/woche_10/bewegung.png" alt="alt text" title="Screenshot der oben beschriebenen Funktion Bewegung"></p>
 <p>&ldquo;Such&rdquo; wurde mit Hilfe von weiteren Collidern, welche sich an den Münzen befinden, umgesetzt. Sofern die Ratte mit ihrem Collider die Münze und deren Collider trifft, wird die Münze in die Liste coinpositions hinzugefügt.</p>
-<p><img src="../../img/woche_10/findNearestCoin_script.png" alt="alt text" title="Screenshot der unten beschriebenen Funktion finNearestCoin"></p>
+<p><img src="../../img/woche_10/findNearestCoin_script.png" alt="alt text" title="Screenshot der unten beschriebenen Funktion findNearestCoin"></p>
 <p>Die Funktion &ldquo;findNearestCoin&rdquo; kontrolliert dann, ob in der Liste eine Münze existiert und gibt die Position der Münze mit der kürzesten Distanz zur Ratte zurück. Dieser Rückgabewert ist dann die Position an die die Ratte bewegt wird. &ldquo;Mach Männchen&rdquo; setzt die Münze dann auf inaktiv und zählt den Counter hoch.
 &ldquo;Aufheben&rdquo; sollte ein komplexeres Thema werden und wurde zuerst einmal auf der ToDo Liste weiter nach unten gesetzt.</p>
 <p><img src="../../img/woche_10/such.png" alt="alt text" title="Ratte in VR, die unter einem Stück Käse auf allen Vieren steht."></p>

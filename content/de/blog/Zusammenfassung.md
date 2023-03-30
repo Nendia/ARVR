@@ -114,30 +114,14 @@ Dies war der erste Pitch des Projekts:
 ![Seite 5](/img/woche_8/getting_used_to_rats_5.PNG)
 ![Seite 6](/img/woche_8/getting_used_to_rats_6.PNG)
 
+Nach dem Feedback zur Projektidee konnte nun mit dem Projekt gestartet werden.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Nachdem in der letzten Woche Feedback zur Projektidee eingeholt wurde, konnte ich nun endlich mit dem Projekt starten.
 Step 1 war es, die Vorlage des Parcours in Unity zu laden und diese auf die passende Größe anzupassen. 
 Da meine Projektidee darauf basiert, dass man nicht selbst die Spielfigur darstellt, sondern die eigentliche Figur per Gesten steuert benötigte ich einen Parcour der auf Rattengröße geschrumpft ist. Mit dem Wissen, das ich mir in den folgenden Wochen aneignen sollte, wäre diese Aufgabe innerhalb von kürzester Zeit gelöst gewesen. Da ich zu diesem Zeitpunkt allerdings noch nicht viel mit Unity gearbeitet hatte, nahm dieser Umbau einen kompletten Arbeitstag in Anspruch (und sollte zu einem späteren Zeitpunkt erneut wiederholt werden).
 
 ![alt text](/img/woche_9/parcour.png "Ein Parcour in Form einer Straße die ringförmig verläuft. Auf der einen Seite läuft sie in S-Linien entlang, auf der anderen in einer geraden Linie. Sie befindet sich auf einer grünen Fläche mit einem Fluss und mehreren Gebäuden.")
 
-Step 2 beinhaltete den komplexesten Teil des Projekts - die Gestenerkennung. Hierbei hangelte ich mich zuerst an diversen Tutorials entlang. Trotz der Tutorials dauerte es mehrere Tage, bis ich eine funktionierende Posenerkennung hatte. Aus der geplanten Gestenerkennung wurde aufgrund der Umsetzbarkeit eine Posenerkennung, die keine Bewegungen beinhaltet, sondern nur die Pose der Hand zu einem bestimmten Zeitpunkt speichert. Die Posenerkennung funktionierte anschließend zwar und Unity gab mir in der Konsole Text aus, sofern es eine Handpose erkannt hatte, mit dieser erkannten Pose eine virtuelle Ratte zu bewegen sollte allerdings noch ein sehr langer Weg sein. 
+Step 2 beinhaltete den komplexesten Teil des Projekts - die Gestenerkennung. Hierbei hangelte ich mich zuerst an diversen Tutorials entlang. Trotz der Tutorials dauerte es mehrere Tage, bis ich eine funktionierende Posenerkennung hatte. Aus der geplanten Gestenerkennung wurde aufgrund der Umsetzbarkeit eine Posenerkennung, die keine Bewegungen beinhaltet, sondern nur die Pose der Hand zu einem bestimmten Zeitpunkt speichert. Die Posenerkennung funktionierte anschließend so, dass mir Unity in der Konsole Text ausgab, sofern es eine Handpose erkannt hatte. 
 
 [Hand Tracking Gesture Detection - Unity Oculus Quest Tutorial von Valem](https://www.youtube.com/watch?v=lBzwUKQ3tbw)
 
@@ -149,26 +133,93 @@ Die auskommentierten Zeilen sind die ursprüngliche Gestenerkennung aus den oben
 
 ![alt text](/img/woche_9/gestureDetector.png "Screenshot der Datei 'GestureDetector.cs'")[GestureDetector](/img/woche_9/GestureDetector.cs ':include')
 
-Während es in der Vorlesung diese Woche um Human-Centered Design, User-Centered Design und um Usability ging, ging es in meinem Projekt um grundlegendere Funktionen. 
+Für mein Projekt musste zuerst noch eine passende Ratte gefunden werden. Hierbei wurde der Fokus darauf gelegt, diese Ratte nicht noch animieren, bzw. riggen zu müssen. Nach längerer Recherche fand sich folgende Ratte:
 
-Erster Fokuspunkt war es, die Handpose "Aufheben" mit der gleichnamigen Methode "Aufheben" zu verbinden und die Ratte das T-Stück des Interaction Tasks aufheben zu lassen.
+{{< rawhtml >}} 
+
+<video controls>
+    <source src="/img/woche_10/rat_pr_1.mp4" type="video/mp4">
+    Your browser does not support the video tag.  
+</video>
+
+<video controls>
+    <source src="/img/woche_10/rat_pr_2.mp4" type="video/mp4">
+    Your browser does not support the video tag.  
+</video>
+
+{{< /rawhtml >}}
+
+[Animierte Ratte auf renderhub.com](https://www.renderhub.com/mikserart/rat-12-animations-game-ready-props-low-poly-3d-model)
+
+Vorteilhafterweise kam sie direkt mit Animationen und war komplett gerigged. 
+Ein Nachteil der Animationen war allerdings, dass die Ratte diese Animationen nicht auf der Stelle macht, sondern sich das Model tatsächlich bewegt, also die Position in Unity verändert wird. Hierauf musste geachtet werden, sobald es an die Bewegung der Ratte in VR ging. Es mussten nur noch alle Animationen geschnitten und passend benannt werden. 
+
+![alt text](/img/woche_10/animationen.png "Screenshot aller Animationen im Explorer")
+
+Der nächste Schritt war, die Ratte "auf Befehle horchen zu lassen". 
+Sofern der GestureDetector die Handposition für "Laufen" erkennt sollte also die Animation für "Laufen" abgespielt werden. Das gleiche gilt für "Mach Männchen", "Aufheben", "Links drehen", "Rechts drehen" und "Such".
+
+* "Laufen" bewegte die Ratte nach vorne, bis die Handpose geändert wurde.
+* "nach Links drehen" lässt die Ratte einen Bogen nach links laufen, bis die Handpose geändert wurde. 
+* "nach Rechts drehen" macht das selbe nach rechts.
+* "Such" lässt die Ratte nach der nächsten Münze suchen und, falls eine in der Nähe ist, zu dieser laufen.
+* "Mach Männchen" lässt sie auf die Hinterbeine gehen und diese Münze aufheben.
+* "Aufheben" wird lediglich für die Interaction Tasks benötigt. Damit wird dann das T aufgehoben und mit der Drehung der Hand in die richtige Position gedreht.
+
+<!--
+{{< rawhtml >}} 
+
+<ul>
+<li>"Laufen" bewegte die Ratte nach vorne, bis die Handpose geändert wurde. </li>
+<li>"nach Links drehen" lässt die Ratte einen Bogen nach links laufen.</li> 
+<li>"nach Rechts drehen" macht das selbe nach rechts. </li>
+<li>"Such" lässt die Ratte nach der nächsten Münze suchen und, falls eine in der Nähe ist, zu dieser laufen. </li>
+<li>"Mach Männchen" lässt sie auf die Hinterbeine gehen und diese Münze aufheben. </li>
+<li>"Aufheben" wird lediglich für die Interaction Tasks benötigt. Damit wird dann das T aufgehoben und mit der Drehung der Hand in die richtige Position gedreht. </li>
+</ul>
+
+{{< /rawhtml >}} 
+-->
+
+![alt text](/img/woche_10/switchCase.png "Screenshot des switch-case das unten beschrieben wird")
+
+Laufen, sowie links und rechts drehen waren recht schnell implementiert. Zu diesem Zeitpunkt war alles noch mit einem if-else modelliert, dies wurde später allerdings in ein switch-case geändert, um die Übersichtlichkeit zu wahren. Alle drei Befehle rufen die gleiche Funktion auf, mit dem einzigen Unterschied, dass eine Rotationsvariable verändert übergeben wird. 
+
+![alt text](/img/woche_10/bewegung.png "Screenshot der oben beschriebenen Funktion Bewegung")
+
+"Such" wurde mit Hilfe von weiteren Collidern, welche sich an den Münzen befinden, umgesetzt. Sofern die Ratte mit ihrem Collider die Münze und deren Collider trifft, wird die Münze in die Liste coinpositions hinzugefügt. 
+
+![alt text](/img/woche_10/findNearestCoin_script.png "Screenshot der unten beschriebenen Funktion findNearestCoin")
+
+Die Funktion "findNearestCoin" kontrolliert dann, ob in der Liste eine Münze existiert und gibt die Position der Münze mit der kürzesten Distanz zur Ratte zurück. Dieser Rückgabewert ist dann die Position an die die Ratte bewegt wird. "Mach Männchen" setzt die Münze dann auf inaktiv und zählt den Counter hoch.
+"Aufheben" sollte ein komplexeres Thema werden und wurde zuerst einmal auf der ToDo Liste weiter nach unten gesetzt.
+
+![alt text](/img/woche_10/such.png "Ratte in VR, die unter einem Stück Käse auf allen Vieren steht.")
+
+Da das Spiel als Lernspiel gedacht war, wurde die spontane Idee, die Münzen durch Käse zu ersetzen, umgesetzt und erweitert. Die Münzen wurden also alle in Käsestücke umgewandelt und an Stelle der Münzen befinden sich nun Textboxen mit Rattenfakten. Diese tauchen auf, sobald der dazugehörige Käse "gegessen" wurde. Um anschließend die Tipps im Spiel wiederfinden zu können wurden aus den Käsestücke Käseleiber. Sobald die Ratte den Käseleib "gefressen" hatte wurde dieser ausgeblendet und stattdessen ein Käsestück eingeblendet. Damit wurde nach dem Belohnungsprinzip gearbeitet und die Teilnehmer\*innen, bzw. Spieler\*innen werden mit Fakten "belohnt", wenn sie die Ratte dazu bringen den Käse zu essen. 
+
+![alt text](/img/woche_10/machMännchen_script.png "Screenshot der oben beschriebenen Funktion machMännchen")
+
+![alt text](/img/woche_10/machMännchen.png "Ratte in VR, die unter einer Textbox auf den Hinterbeinen steht.")
+
+Nächster Fokuspunkt war es, die Handpose "Aufheben" mit der gleichnamigen Methode "Aufheben" zu verbinden und die Ratte das T-Stück des Interaction Tasks aufheben zu lassen.
 Zuallererst wurde das T, welches wir mit dem ursprünglichen Parcour erhalten hatten, durch ein Stück Käse ersetzt.
 Um nichts in der Hauptszene zu zerstören wurde in eine andere Szene gewechselt und dort die Funktion "Aufheben" erst einmal provisorisch implementiert. 
 Da zu diesem Zeitpunkt auch getestet wurde, wie man ein Material auf einem 3D-Objekt ändert ist der Boden dieser Szene zu einer riesigen Käseplatte geworden.
 
 ![alt text](/img/woche_11/ratMoveTest.png "Screenshot aus Unity. Eine Ratte steht auf einer riesigen Käseplatte. Um sie herum verteilt liegen Würfel und Kugeln.")
 
-Ziel war es, das Script MooveCheese.cs so zu bauen, dass der Spieler, wenn sich die Ratte im richtigen Bereich befindet, die Aufheben-Pose nutzt, um das Käsestück aufzuheben. Sobald er diese Pose nicht mehr hält soll der Käse losgelassen werden. Dies sollte auf die Entfernung funktionieren, so dass im Spielbereich die Ratte sich auf den Käse zubewegt und sie den Käse mit dem Mund in die richtige Position bewegt. 
-Die Bewegung des Käses war sehr schnell und leicht umgesetzt. Hierbei reichte es die Position des Käses um einen prozentualen Anteil der Verschiebung der Hand zu verändern. 
+Ziel war es, das Script MooveCheese.cs so zu bauen, dass der Spieler, wenn sich die Ratte im richtigen Bereich befindet, die Aufheben-Pose nutzt, um das Käsestück aufzuheben. Sobald er diese Pose nicht mehr hält soll der Käse losgelassen werden. Dies sollte auf Entfernung funktionieren, so dass die Ratte sich im Spielbereich auf den Käse zubewegt und sie den Käse mit dem Mund in die richtige Position bewegt. 
+Die Bewegung des Käses war sehr schnell und leicht umgesetzt. Hierbei reichte es die Position des Käses um einen prozentualen Anteil der Verschiebung der Hand zu verändern. <!-- Ebenfalls war die Verbindung zwischen Käse und Mund der Ratte schnell hergestellt. Hierbei halfen -->
 Die Rotation hingegen wurde komplex. Hier musste mit Quaternionen gearbeitet werden. Die Unity-Dokumentation sagt zu Quaternionen: "Ändere Werte nur, wenn du genau weißt was du tust."
 Es gibt aber einige hilfreiche Funktionen auf Quaternionen - diese habe ich nur erst einmal nicht gefunden und versucht die Quaternionen händisch zu berechnen. Das hat auch funktioniert, allerdings nur um eine bestimmte Achse. Die ersten Versuche der RotateTheCheese() finden sich als Kommentar in der MooveCheese.cs..
 
 ![alt text](/img/woche_11/mooveCheese.png "Screenshot aus der MooveCheese.cs.")
 
 Am Ende konnte mit nur einer Quaternionen-Funktion namens "EulerAngles" jede Rotation umgesetzt werden.
-Als diese Bewegungen am Ende alle in der Übungsszene funktionierten, wurde das Script an den Käse in der 'richtigen' Szene angehängt und funktionierte ohne Änderungen. 
+Als diese Bewegungen alle in der Übungsszene funktionierten, wurde das Script an den Käse in der 'richtigen' Szene angehängt und funktionierte ohne Änderungen. 
 
-Für die eigentliche Lernumgebung waren bisher jedoch nur zwei Würfel "auf den Parcour gestellt worden". Um das so zu gestalten, dass die Spieler\*innen ohne lange Anleitung meinerseits erkennen können, was sie tun sollen, wurde während des "Lernens" der Parcour ausgeblendet und nur die Ratte und die zwei Lern-Würfel sichtbar gelassen. Der\*Die Spieler\*in sieht zu Beginn also zwei Würfel. 
+Für die eigentliche Lernumgebung waren bisher jedoch nur zwei Würfel "auf den Parcour gestellt worden". Um das so zu gestalten, dass die Spieler\*innen ohne lange Anleitung (meinerseits) erkennen können, was sie tun sollen, wurde während des "Lernens" der Parcour ausgeblendet und nur die Ratte und die zwei Lern-Würfel sichtbar gelassen. Der\*Die Spieler\*in sieht zu Beginn also folgende zwei Würfel. 
 
 ![alt text](/img/woche_11/training.png "Die Learning-Szene im Spiel. Zwei leicht durchsichtige Würfel auf einem Tisch. Auf einem Würfel steht 'Bitte noch weitere Posen speichern' auf dem anderen '1 mal Pose für laufen speichern'")
 
@@ -183,13 +234,10 @@ Damit die spielende Person aber einfacher an die Würfel kommt und die Ratte jed
 
 ![alt text](/img/woche_11/parcourStart.png "Ein Ausschnitt des Parcours. Eine Ratte befindet sich vor dem Banner 'Start'.")
 
-
-
-
-Da in dieser Woche die finale Vorstellung des Projektes anstand wurden am Projekt nur noch ein paar finale Schliffe gemacht und probeweise ein Proband gebeten den Parcour einmal zu machen.
+Nun wurden am Projekt nur noch ein paar finale Schliffe gemacht nachdem probeweise ein Proband den Parcour einmal durchlaufen hatte.
 Der Proband wurde natürlich nicht in die eigentliche Studie einbezogen.
 
-Die Abschlusspräsentation wurde gehalten, bevor die Miniaturstudie durchgeführt wurde, weshalb das Logging erst nach der Abschlusspräsentation in das Projekt eingepflegt wurde.
+Da die Abschlusspräsentation gehalten wurde, bevor die Miniaturstudie durchgeführt wurde, wurde das Logging erst nach der Abschlusspräsentation in das Projekt eingepflegt.
 
 ![Seite 1](/img/woche_12/Abschlusspräsentation_1.png)
 ![Seite 2](/img/woche_12/Abschlusspräsentation_2.png)
@@ -208,8 +256,8 @@ Das Einbinden des Loggings war dank JSON sehr einfach möglich. Diese kleine Fun
 
 ![alt text](/img/woche_12/toJSON.png "Screenshot der SaveToFile() Methode aus der GestureDetector.cs.")
 
-Die Studie bestand nur aus vier Participants, da sie nur im Rahmen des Seminars stattfinden sollte.
-Den Studienteilnehmer\*innen wurde zu Beginn ein Fragebogen den sie ausfüllen sollten ausgeteilt. Am Ende der Studie erhielten sie erneut den Fragebogen. Beide Fragebögen wurden für die Auswertung verglichen.
+Die Studie bestand nur aus vier Participants, da sie nur im Rahmen des Seminars stattfinden und keine 'richtige Studie' darstellen sollte.
+Den Studienteilnehmer\*innen wurden gebeten zu Beginn einen Fragebogen auszufüllen. Am Ende der Studie erhielten sie erneut den Fragebogen. Beide Fragebögen wurden für die Auswertung verglichen.
 
 ![alt text](/img/woche_12/fragebogen.png "Fragebogen zur Studie. Wie gut kennst du dich mit Ratten aus? Findest du Ratten eher abstoßend oder ansprechend? Würdest du eine Ratte in die Hand nehmen? Wie viel Interesse hast du daran dich mit Ratten auseinander zu setzen? Wie viel Interesse hast du daran dir eine Ratte anzuschaffen?")
 
@@ -221,3 +269,17 @@ Aus der Auswertung wird erkenntlich, dass zwei von vier Teilnehmenden sich nun b
 Ebenfalls lässt sich erkennen, dass eine Person Ratten nun eher ansprechend findet und sich bei drei Personen das Empfinden gegenüber Ratten nicht verändert hat.
 Es lässt sich also vermuten, dass das Spiel Menschen helfen könnte, ihre Abneigung gegenüber Ratten nach und nach etwas abzulegen. 
 Ein wesentlicher Unterschied zu einer Begegnung in der "realen Welt" ist vorallem die Möglichkeit, die Ratte zu steuern und sie somit von sich fernhalten zu können.
+
+{{< rawhtml >}} 
+
+<video controls>
+    <source src="/img/zusammenfassung/Kurzvideo.mp4" type="video/mp4">
+    Your browser does not support the video tag.  
+</video>
+
+{{< /rawhtml >}}
+
+Finale .apk zum Download:
+[gettingUsedToRats](/img/zusammenfassung/V10_fertig ':include')
+
+

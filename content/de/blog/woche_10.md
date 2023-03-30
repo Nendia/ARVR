@@ -59,7 +59,7 @@ Laufen, sowie links und rechts drehen waren recht schnell implementiert. Zu dies
 
 "Such" wurde mit Hilfe von weiteren Collidern, welche sich an den Münzen befinden, umgesetzt. Sofern die Ratte mit ihrem Collider die Münze und deren Collider trifft, wird die Münze in die Liste coinpositions hinzugefügt. 
 
-![alt text](/img/woche_10/findNearestCoin_script.png "Screenshot der unten beschriebenen Funktion finNearestCoin")
+![alt text](/img/woche_10/findNearestCoin_script.png "Screenshot der unten beschriebenen Funktion findNearestCoin")
 
 Die Funktion "findNearestCoin" kontrolliert dann, ob in der Liste eine Münze existiert und gibt die Position der Münze mit der kürzesten Distanz zur Ratte zurück. Dieser Rückgabewert ist dann die Position an die die Ratte bewegt wird. "Mach Männchen" setzt die Münze dann auf inaktiv und zählt den Counter hoch.
 "Aufheben" sollte ein komplexeres Thema werden und wurde zuerst einmal auf der ToDo Liste weiter nach unten gesetzt.
