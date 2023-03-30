@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zusammenfassung on Home</title>
+    <link>https://Nendia.github.io/ARVR/tags/zusammenfassung/</link>
+    <description>Recent content in Zusammenfassung on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 01 Mar 2023 12:00:00 +0100</lastBuildDate><atom:link href="https://Nendia.github.io/ARVR/tags/zusammenfassung/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zusammenfassung</title>
+      <link>https://Nendia.github.io/ARVR/blog/zusammenfassung/</link>
+      <pubDate>Wed, 01 Mar 2023 12:00:00 +0100</pubDate>
+      
+      <guid>https://Nendia.github.io/ARVR/blog/zusammenfassung/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
