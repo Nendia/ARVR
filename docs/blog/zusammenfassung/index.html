@@ -182,7 +182,7 @@ Das war mit Hilfe von <a href="https://mixed.de/oculus-quest-sideloading-und-sid
 Stolperfallen gab es vor allem beim Übertragen der fertigen .apk. Wenn in Unity nicht vor der Übertragung die Project Settings geändert wurden, wirft die Quest einen Fehler, der im ersten Moment unsinnig erscheint. Ändert man jedoch den Company und Product Name sind diese Fehler behoben.</p>
 <p><img src="../../img/woche_3/Project_Settings.png" alt="alt text" title="Bild der Project Settings in Unity"></p>
 <p>Mein Setup bestand aus einem VR-fähigen Laptop der via USB-Kabel und Oculus Link meine Projekte live gerendert hat. So musste ich nicht nach jeder Änderung eine neue .apk bauen und diese importieren.</p>
-<!-- Bild von Setup einfügen -->
+<p><img src="../../img/woche_3/setup.png" alt="alt text" title="Ein Laptop auf einem Tisch, an die Quest 2 und einen weiteren Bildschirm angeschlossen. Ein Sitzball vor dem Tisch."></p>
 <p>Das erste Brainstorming zum Locomotion Technique Projekt ergab folgende Ideen meinerseits:</p>
 <p><img src="../../img/woche_4/erstes_Brainstorming.png" alt="alt text" title="Ideen, welche Bewegungen benötigt werden um eine Figur zu steuern, z.B. stehen, laufen, rennen, springen, aufheben"></p>
 <p>Ziel des Locomotion Projekts war es eine eigene Locomotion Technique zu entwickeln und diese so umsetzen, dass unsere Studienteilnehmer*innen den Parcour damit durchführen können.
@@ -267,21 +267,6 @@ Sofern der GestureDetector die Handposition für &ldquo;Laufen&rdquo; erkennt so
 <li>&ldquo;Mach Männchen&rdquo; lässt sie auf die Hinterbeine gehen und diese Münze aufheben.</li>
 <li>&ldquo;Aufheben&rdquo; wird lediglich für die Interaction Tasks benötigt. Damit wird dann das T aufgehoben und mit der Drehung der Hand in die richtige Position gedreht.</li>
 </ul>
-<!--
-
- 
-
-<ul>
-<li>"Laufen" bewegte die Ratte nach vorne, bis die Handpose geändert wurde. </li>
-<li>"nach Links drehen" lässt die Ratte einen Bogen nach links laufen.</li> 
-<li>"nach Rechts drehen" macht das selbe nach rechts. </li>
-<li>"Such" lässt die Ratte nach der nächsten Münze suchen und, falls eine in der Nähe ist, zu dieser laufen. </li>
-<li>"Mach Männchen" lässt sie auf die Hinterbeine gehen und diese Münze aufheben. </li>
-<li>"Aufheben" wird lediglich für die Interaction Tasks benötigt. Damit wird dann das T aufgehoben und mit der Drehung der Hand in die richtige Position gedreht. </li>
-</ul>
-
- 
--->
 <p><img src="../../img/woche_10/switchCase.png" alt="alt text" title="Screenshot des switch-case das unten beschrieben wird"></p>
 <p>Laufen, sowie links und rechts drehen waren recht schnell implementiert. Zu diesem Zeitpunkt war alles noch mit einem if-else modelliert, dies wurde später allerdings in ein switch-case geändert, um die Übersichtlichkeit zu wahren. Alle drei Befehle rufen die gleiche Funktion auf, mit dem einzigen Unterschied, dass eine Rotationsvariable verändert übergeben wird.</p>
 <p><img src="../../img/woche_10/bewegung.png" alt="alt text" title="Screenshot der oben beschriebenen Funktion Bewegung"></p>

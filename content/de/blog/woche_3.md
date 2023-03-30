@@ -15,4 +15,4 @@ Stolperfallen gab es vor allem beim Übertragen der .apk. Wenn in Unity nicht vo
 
 Mein Setup bestand aus einem VR-fähigen Laptop der via USB-Kabel und Oculus Link meine Projekte live gerendert hat. So musste ich nicht nach jeder Änderung eine neue .apk bauen und diese importieren.
 
-<!-- ![alt text](/img/woche_3/Setup.png "Ein Laptop per USB-Kabel mit der Quest verbunden") -->
+![alt text](/img/woche_3/setup.png "Ein Laptop auf einem Tisch, an die Quest 2 und einen weiteren Bildschirm angeschlossen. Ein Sitzball vor dem Tisch.")

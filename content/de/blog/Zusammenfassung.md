@@ -58,7 +58,7 @@ Stolperfallen gab es vor allem beim Übertragen der fertigen .apk. Wenn in Unity
 
 Mein Setup bestand aus einem VR-fähigen Laptop der via USB-Kabel und Oculus Link meine Projekte live gerendert hat. So musste ich nicht nach jeder Änderung eine neue .apk bauen und diese importieren.
 
-<!-- Bild von Setup einfügen -->
+![alt text](/img/woche_3/setup.png "Ein Laptop auf einem Tisch, an die Quest 2 und einen weiteren Bildschirm angeschlossen. Ein Sitzball vor dem Tisch.")
 
 Das erste Brainstorming zum Locomotion Technique Projekt ergab folgende Ideen meinerseits:
 
@@ -165,21 +165,6 @@ Sofern der GestureDetector die Handposition für "Laufen" erkennt sollte also di
 * "Such" lässt die Ratte nach der nächsten Münze suchen und, falls eine in der Nähe ist, zu dieser laufen.
 * "Mach Männchen" lässt sie auf die Hinterbeine gehen und diese Münze aufheben.
 * "Aufheben" wird lediglich für die Interaction Tasks benötigt. Damit wird dann das T aufgehoben und mit der Drehung der Hand in die richtige Position gedreht.
-
-<!--
-{{< rawhtml >}} 
-
-<ul>
-<li>"Laufen" bewegte die Ratte nach vorne, bis die Handpose geändert wurde. </li>
-<li>"nach Links drehen" lässt die Ratte einen Bogen nach links laufen.</li> 
-<li>"nach Rechts drehen" macht das selbe nach rechts. </li>
-<li>"Such" lässt die Ratte nach der nächsten Münze suchen und, falls eine in der Nähe ist, zu dieser laufen. </li>
-<li>"Mach Männchen" lässt sie auf die Hinterbeine gehen und diese Münze aufheben. </li>
-<li>"Aufheben" wird lediglich für die Interaction Tasks benötigt. Damit wird dann das T aufgehoben und mit der Drehung der Hand in die richtige Position gedreht. </li>
-</ul>
-
-{{< /rawhtml >}} 
--->
 
 ![alt text](/img/woche_10/switchCase.png "Screenshot des switch-case das unten beschrieben wird")
 

@@ -1,9 +1,8 @@
-- Bild für Startseite erstellen (logo = "/blist-logo.png")
++ Bild für Startseite erstellen (logo = "/blist-logo.png")
++ Links anpassen, damit das mit ARVR funktioniert
++ Datum anpassen in allen Wochen
 - Icon für Twitch erstellen
-- Links anpassen, damit das mit ARVR funktioniert
+- Thumbnails für jede Woche anpassen
+woche 1 Bild: Grundlagen
+woche 2 Bild: AR VR - Setup -
 
-
-Woche 1:
-Was war an der Einrichtung von Hugo kompliziert? Unity sollte kompliziert sein, war aber einfach. Wieso?
-
-Woche 2:
