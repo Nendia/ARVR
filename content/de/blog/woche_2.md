@@ -14,7 +14,7 @@ Natürlich mit Hilfe eines [Tutorials](https://learn.unity.com/project/roll-a-ba
 
 ![alt text](/img/woche_2/erstes_Projekt.png "Ansicht des Projekts in Unity")
 
-Alle erstellten Projekte dieses Seminars sollten auf auf einer [Meta Quest 2](https://www.meta.com/de/quest/products/quest-2/) laufen.
+Alle erstellten Projekte dieses Seminars sollten auf einer [Meta Quest 2](https://www.meta.com/de/quest/products/quest-2/) laufen.
 Ziel des ersten Projekts war es, ein Spielbrett zu gestalten, auf dem sich ein Ball und mehrere Würfel befinden. Indem man das Spielbrett mit den Controllern anhebt und zur Seite neigt, sollte der Ball in's Rollen gebracht werden und während er rollte die Würfel einsammeln. Zusätzlich gab es einen Counter, welcher die Punkte die man gesammelt hat zählte. 
 
 ![alt text](/img/woche_2/roll_a_ball.png "Fertig gebautes Spiel 'Roll a Ball'")

@@ -214,7 +214,7 @@ Die Bewegung des Käses war sehr schnell und leicht umgesetzt. Hierbei reichte e
 Die Rotation hingegen wurde komplex. Hier musste mit Quaternionen gearbeitet werden. Die Unity-Dokumentation sagt zu Quaternionen: "Ändere Werte nur, wenn du genau weißt was du tust."
 Es gibt aber einige hilfreiche Funktionen auf Quaternionen - diese habe ich nur erst einmal nicht gefunden und versucht die Quaternionen händisch zu berechnen. Das hat auch funktioniert, allerdings nur um eine bestimmte Achse. Die ersten Versuche der RotateTheCheese() finden sich als Kommentar in der MooveCheese.cs..
 
-![alt text](/img/woche_11/mooveCheese.png "Screenshot aus der MooveCheese.cs.")
+![alt text](/img/woche_11/moveCheese.png "Screenshot aus der 'MooveCheese.cs'.")
 
 Am Ende konnte mit nur einer Quaternionen-Funktion namens "EulerAngles" jede Rotation umgesetzt werden.
 Als diese Bewegungen alle in der Übungsszene funktionierten, wurde das Script an den Käse in der 'richtigen' Szene angehängt und funktionierte ohne Änderungen. 
