@@ -3,7 +3,7 @@ author: "Nadine Völkl"
 title: "Zusammenfassung: Interaktion in Virtuellen und Augmentierten Welten"
 date: 2023-03-01T12:00:00+01:00
 lastmod: 2023-03-30T09:09:00+01:00
-description: "Recap und kurze Zusammenfassung"
+description: "Recap und kurze Zusammenfassung des Projekts"
 tags: ["Zusammenfassung"]
 thumbnail: #/img/woche_1/vr_ar_setup.png
 ---
@@ -77,19 +77,7 @@ Die spielende Person muss nacheinander 4 Banner durchqueren. Das erste startet d
 
 ![alt text](/img/woche_5/parcour_von_oben.png "Blick von oben auf den Parcour. Es werden die vier Banner und die dazugehörigen Münzen dargestellt.")
 
-Im Bezug auf Cybersickness 
-
-
-
-
-
-
-
-
-
-
-Themen dieser Woche waren im Wesentlichen die menschliche Warnehmung, sowie Cybersickness und was man bei seinem Projekt beachten sollte, um diese zu verhindern. 
-Mit diesem neuen Wissen wurden meine Projektideen noch einmal überarbeitet.
+Ein erneutes Brainstorming, nach einigen Vorlesungseinheiten, ergab folgende Ideen:
 
 ![alt text](/img/woche_6/zweites_brainstorming.png "Screenshot der einen Überblick über die unten aufgelisteten Ideen aus dem Brainstorming gibt.")
 
@@ -105,16 +93,16 @@ Die folgenden fünf Ideen standen für mich am Ende des Brainstormings zur Auswa
 * Lernspiel, bei dem die Gebärdensprache spielerisch erlernt wird
 * Koordinationsspiel, bei welchem die Koordination zwischen Füßen und Händen geübt werden soll
 
-Da ich mit der Umsetzung des Projekts erst im Januar beginnen konnte, werden die Ideen jede Woche erneut evaluiert und im Zweifelsfall gestrichen oder angepasst.
+Im Bezug auf Cybersickness wurde dann entschieden, dass die spielende Person nicht 'sich selbst' in VR steuert, sondern eine virtuelle Ratte.
+Das Spiel legte den Fokus nun also auf ein Lernspiel, bei dem sich einerseits Ekel und Ängste abtrainiert und Wissen antrainiert wird.
 
 Bei der Besprechung der Themen 'Tracking Devices' und 'Controls' habe ich für mein Projekt entschieden, dass der Parcour gänzlich mit Gestenerkennung umgesetzt werden soll. 
-Bei der Überlegung diesbezüglich wurde beachtet, dass aufgrund der Gestenerkennung jede\*r Teilnehmer\*in die Möglichkeit benötigt mit der Hand mindestens sechs Gesten zu formen. Sofern die Person jedoch mindestens drei Finger an der rechten Hand besitzt ist das möglich. Ein Linkshandsupport ist geplant, wird aber einiges an Zeit benötigen.
+Bei der Überlegung diesbezüglich wurde beachtet, dass aufgrund der Gestenerkennung jede\*r Teilnehmer\*in die Möglichkeit benötigt mit der Hand mindestens sechs Gesten zu formen. Sofern die Person jedoch mindestens drei Finger an der rechten Hand besitzt ist das möglich. Ein Linkshandsupport war geplant, aber zeitlich leider nicht mehr umsetzbar.
 
 Ein erstes Brainstorming bezüglich der möglichen Gesten ergab folgende Ideen:
 ![alt text](/img/woche_7/Handgesten_Text.png "Die Bewegungen die der Spielcharakter können soll mit dazu passenden Handformen. Stehen: flache Hand, Handinnenfläche nach unten zeigend, Gehen: flache Hand, Handinnenfläche nach oben zeigend, Laufen: beide Hände wie bei gehen, Springen: Fingerschnicken wie ein Heranwinken, Aufstehen: flache Hand, Handinnenfläche nach unten zeigend, Herunterbücken: beide Hände wie bei aufstehen, Aufheben: Hand aufrecht stellen, als würde man jemandem die Hand geben")
 
 ![alt text](/img/woche_7/Handgesten.png "Die Bewegungen die der Spielcharakter können soll mit dazu passenden Handformen. Gehen: flache Hand, Handinnenfläche nach oben zeigend, Laufen: beide Hände wie bei gehen, Springen: Kopf nicken, Aufstehen: flache Hand, Handinnenfläche nach unten zeigend, Herunterbücken: beide Hände wie bei aufstehen, Aufheben: mit der Hand ein 'Mäulchen' formen, Gegenstände drehen: entweder mit der Hand, oder wenn das zu einfach ist mit dem Kopf")
-
 
 Nachdem nun die grobe Idee für das Projekt feststand sollte diese auch den restlichen Seminarteilnehmern gepitched werden. 
 Dies war der erste Pitch des Projekts:
@@ -127,7 +115,21 @@ Dies war der erste Pitch des Projekts:
 ![Seite 6](/img/woche_8/getting_used_to_rats_6.PNG)
 
 
-Hauptthemen dieser Woche waren Presence und Perception in VR. Fokus lag hierbei darauf, wieso Perception in VR wichtig ist, als auch welche Faktoren Perception beeinflussen und wie man diese messen kann.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Nachdem in der letzten Woche Feedback zur Projektidee eingeholt wurde, konnte ich nun endlich mit dem Projekt starten.
 Step 1 war es, die Vorlage des Parcours in Unity zu laden und diese auf die passende Größe anzupassen. 
