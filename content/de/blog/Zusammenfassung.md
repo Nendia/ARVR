@@ -12,7 +12,7 @@ In der integrierten Veranstaltung "Interaktion in Virtuellen und Augmentierten W
 Dieses Projekt beinhaltete, dass jede\*r Teilnehmer\*in eine [Meta Quest 2](https://www.meta.com/de/quest/products/quest-2/) zur Verfügung gestellt bekam und mit Hilfe dieser einen Parcour in VR erstellen sollte. 
 Für den Parcour bekamen die Teilnehmenden eine Vorlage, in welcher "nur noch" die Locomotion Technique eingepflegt werden musste.
 
-Der projektbegleitende Blog der während des Semesters erstellt werden sollte wurde, wie vorgegeben, mit Hilfe von [Hugo](https://gohugo.io/) erstellt und aktualisiert.
+Der projektbegleitende Blog, der während des Semesters erstellt werden sollte, wurde, wie vorgegeben, mit Hilfe von [Hugo](https://gohugo.io/) erstellt und aktualisiert.
 
 Die verwendeten Tutorials und das verwendete Template für Hugo finden sich unter den folgenden Links:
 * [Hugo-Tutorial](https://gohugo.io/installation/windows/)
@@ -28,15 +28,15 @@ Während die Installation von Hugo einige Tage Zeit in Anspruch nahm, war die In
 ![alt text](/img/woche_1/unity.png "Unity-Ansicht des ersten, noch leeren, Projekts")
 
 Zu Einführung wurde als erstes ein kleines Übungsprojekt in Unity erstellt. Da ich bisher keine Erfahrung mit Unity hatte ist in diesem Projekt vor allem der Fokus auf meiner eigenen Weiterbildung und Sicherung von neu gelerntem Wissen.
-Natürlich mit Hilfe eines [Tutorials](https://learn.unity.com/project/roll-a-ball?uv=2019.4), aber ohne dieses wäre das Verständnis zu Unity noch schwieriger gewesen zu bilden.
+Natürlich mit Hilfe eines [Tutorials,](https://learn.unity.com/project/roll-a-ball?uv=2019.4) aber ohne dieses wäre das Verständnis zu Unity noch schwieriger gewesen zu bilden.
 
 ![alt text](/img/woche_2/erstes_Projekt.png "Ansicht des Projekts in Unity")
 
-Ziel des ersten Projekts war es, ein Spielbrett zu gestalten, auf dem sich ein Ball und mehrere Würfel befinden. Indem man das Spielbrett mit den Controllern anhebt und zur Seite neigt, sollte der Ball in's Rollen gebracht werden und während er rollte die Würfel einsammeln. Zusätzlich gab es einen Counter, welcher die Punkte die man gesammelt hat zählte und anzeigte. 
+Ziel des ersten Projekts war es, ein Spielbrett zu gestalten, auf dem sich ein Ball und mehrere Würfel befinden. Durch das Neigen und Anheben des Brettes mit Hilfe des Controllers sollte der Ball ins Rollen gebracht werden. Wenn ein  Würfel überrollt wird, wird dieser eingesammelt. Zusätzlich gab es einen Counter, welcher die Punkte (Würfel) die man gesammelt hat zählte und anzeigte. 
 
 ![alt text](/img/woche_2/roll_a_ball.png "Fertig gebautes Spiel 'Roll a Ball'")
 
-Die Schwierigkeit hierbei war für mich, zu verstehen wie Unity überhaupt arbeitet, was beispielsweise eine 'Scene', ein '3D Object', oder ein 'Prefab' ist. Ebenfalls musste man lernen, wie der 'Inspector' und die 'Materials' funktionieren und was die Begriffe 'Transform', 'Renderer', 'Collider' und 'Rigidbody' bedeuten und wie sie miteinander interagieren.
+Die Schwierigkeit hierbei war für mich, zu verstehen wie Unity überhaupt arbeitet, was beispielsweise eine 'Scene', ein '3D Object', oder ein 'Prefab' ist. Ebenfalls musste ich lernen, wie der 'Inspector' und die 'Materials' funktionieren und was die Begriffe 'Transform', 'Renderer', 'Collider' und 'Rigidbody' bedeuten und wie sie miteinander interagieren.
 Hilfestellung bot mir hierbei regelmäßig die folgende Tabelle:
 
 ![alt text](/img/zusammenfassung/collider.png "Screenshot der Tabelle aus dem Link zu Colliders Overview")
@@ -196,7 +196,7 @@ Die Funktion "findNearestCoin" kontrolliert dann, ob in der Liste eine Münze ex
 
 ![alt text](/img/woche_10/such.png "Ratte in VR, die unter einem Stück Käse auf allen Vieren steht.")
 
-Da das Spiel als Lernspiel gedacht war, wurde die spontane Idee, die Münzen durch Käse zu ersetzen, umgesetzt und erweitert. Die Münzen wurden also alle in Käsestücke umgewandelt und an Stelle der Münzen befinden sich nun Textboxen mit Rattenfakten. Diese tauchen auf, sobald der dazugehörige Käse "gegessen" wurde. Um anschließend die Tipps im Spiel wiederfinden zu können wurden aus den Käsestücke Käseleiber. Sobald die Ratte den Käseleib "gefressen" hatte wurde dieser ausgeblendet und stattdessen ein Käsestück eingeblendet. Damit wurde nach dem Belohnungsprinzip gearbeitet und die Teilnehmer\*innen, bzw. Spieler\*innen werden mit Fakten "belohnt", wenn sie die Ratte dazu bringen den Käse zu essen. 
+Da das Spiel als Lernspiel gedacht war, wurde die spontane Idee, die Münzen durch Käse zu ersetzen, umgesetzt und erweitert. Die Münzen wurden also alle in Käsestücke umgewandelt und an Stelle der Münzen befinden sich nun Textboxen mit Rattenfakten. Diese tauchen auf, sobald der dazugehörige Käse "gegessen" wurde. Um anschließend die Tipps im Spiel wiederfinden zu können wurden aus den Käsestücke Käselaiber. Sobald die Ratte den Käselaib "gefressen" hatte wurde dieser ausgeblendet und stattdessen ein Käsestück eingeblendet. Damit wurde nach dem Belohnungsprinzip gearbeitet und die Teilnehmer\*innen, bzw. Spieler\*innen werden mit Fakten "belohnt", wenn sie die Ratte dazu bringen den Käse zu essen. 
 
 ![alt text](/img/woche_10/machMännchen_script.png "Screenshot der oben beschriebenen Funktion machMännchen")
 

@@ -143,7 +143,7 @@
 Dieses Projekt beinhaltete, dass jede*r Teilnehmer*in eine <a href="https://www.meta.com/de/quest/products/quest-2/" target="_blank" rel="noopener">Meta Quest 2</a>
  zur Verfügung gestellt bekam und mit Hilfe dieser einen Parcour in VR erstellen sollte.
 Für den Parcour bekamen die Teilnehmenden eine Vorlage, in welcher &ldquo;nur noch&rdquo; die Locomotion Technique eingepflegt werden musste.</p>
-<p>Der projektbegleitende Blog der während des Semesters erstellt werden sollte wurde, wie vorgegeben, mit Hilfe von <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>
+<p>Der projektbegleitende Blog, der während des Semesters erstellt werden sollte, wurde, wie vorgegeben, mit Hilfe von <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>
  erstellt und aktualisiert.</p>
 <p>Die verwendeten Tutorials und das verwendete Template für Hugo finden sich unter den folgenden Links:</p>
 <ul>
@@ -162,12 +162,12 @@ Für den Parcour bekamen die Teilnehmenden eine Vorlage, in welcher &ldquo;nur n
 <p>Während die Installation von Hugo einige Tage Zeit in Anspruch nahm, war die Installation von Unity sehr schnell abgeschlossen.</p>
 <p><img src="../../img/woche_1/unity.png" alt="alt text" title="Unity-Ansicht des ersten, noch leeren, Projekts"></p>
 <p>Zu Einführung wurde als erstes ein kleines Übungsprojekt in Unity erstellt. Da ich bisher keine Erfahrung mit Unity hatte ist in diesem Projekt vor allem der Fokus auf meiner eigenen Weiterbildung und Sicherung von neu gelerntem Wissen.
-Natürlich mit Hilfe eines <a href="https://learn.unity.com/project/roll-a-ball?uv=2019.4" target="_blank" rel="noopener">Tutorials</a>
-, aber ohne dieses wäre das Verständnis zu Unity noch schwieriger gewesen zu bilden.</p>
+Natürlich mit Hilfe eines <a href="https://learn.unity.com/project/roll-a-ball?uv=2019.4" target="_blank" rel="noopener">Tutorials,</a>
+ aber ohne dieses wäre das Verständnis zu Unity noch schwieriger gewesen zu bilden.</p>
 <p><img src="../../img/woche_2/erstes_Projekt.png" alt="alt text" title="Ansicht des Projekts in Unity"></p>
-<p>Ziel des ersten Projekts war es, ein Spielbrett zu gestalten, auf dem sich ein Ball und mehrere Würfel befinden. Indem man das Spielbrett mit den Controllern anhebt und zur Seite neigt, sollte der Ball in&rsquo;s Rollen gebracht werden und während er rollte die Würfel einsammeln. Zusätzlich gab es einen Counter, welcher die Punkte die man gesammelt hat zählte und anzeigte.</p>
+<p>Ziel des ersten Projekts war es, ein Spielbrett zu gestalten, auf dem sich ein Ball und mehrere Würfel befinden. Durch das Neigen und Anheben des Brettes mit Hilfe des Controllers sollte der Ball ins Rollen gebracht werden. Wenn ein  Würfel überrollt wird, wird dieser eingesammelt. Zusätzlich gab es einen Counter, welcher die Punkte (Würfel) die man gesammelt hat zählte und anzeigte.</p>
 <p><img src="../../img/woche_2/roll_a_ball.png" alt="alt text" title="Fertig gebautes Spiel 'Roll a Ball'"></p>
-<p>Die Schwierigkeit hierbei war für mich, zu verstehen wie Unity überhaupt arbeitet, was beispielsweise eine &lsquo;Scene&rsquo;, ein &lsquo;3D Object&rsquo;, oder ein &lsquo;Prefab&rsquo; ist. Ebenfalls musste man lernen, wie der &lsquo;Inspector&rsquo; und die &lsquo;Materials&rsquo; funktionieren und was die Begriffe &lsquo;Transform&rsquo;, &lsquo;Renderer&rsquo;, &lsquo;Collider&rsquo; und &lsquo;Rigidbody&rsquo; bedeuten und wie sie miteinander interagieren.
+<p>Die Schwierigkeit hierbei war für mich, zu verstehen wie Unity überhaupt arbeitet, was beispielsweise eine &lsquo;Scene&rsquo;, ein &lsquo;3D Object&rsquo;, oder ein &lsquo;Prefab&rsquo; ist. Ebenfalls musste ich lernen, wie der &lsquo;Inspector&rsquo; und die &lsquo;Materials&rsquo; funktionieren und was die Begriffe &lsquo;Transform&rsquo;, &lsquo;Renderer&rsquo;, &lsquo;Collider&rsquo; und &lsquo;Rigidbody&rsquo; bedeuten und wie sie miteinander interagieren.
 Hilfestellung bot mir hierbei regelmäßig die folgende Tabelle:</p>
 <p><img src="../../img/zusammenfassung/collider.png" alt="alt text" title="Screenshot der Tabelle aus dem Link zu Colliders Overview">
 <a href="https://docs.unity3d.com/Manual/CollidersOverview.html" target="_blank" rel="noopener">Colliders Overview</a>
@@ -290,7 +290,7 @@ Sofern der GestureDetector die Handposition für &ldquo;Laufen&rdquo; erkennt so
 <p>Die Funktion &ldquo;findNearestCoin&rdquo; kontrolliert dann, ob in der Liste eine Münze existiert und gibt die Position der Münze mit der kürzesten Distanz zur Ratte zurück. Dieser Rückgabewert ist dann die Position an die die Ratte bewegt wird. &ldquo;Mach Männchen&rdquo; setzt die Münze dann auf inaktiv und zählt den Counter hoch.
 &ldquo;Aufheben&rdquo; sollte ein komplexeres Thema werden und wurde zuerst einmal auf der ToDo Liste weiter nach unten gesetzt.</p>
 <p><img src="../../img/woche_10/such.png" alt="alt text" title="Ratte in VR, die unter einem Stück Käse auf allen Vieren steht."></p>
-<p>Da das Spiel als Lernspiel gedacht war, wurde die spontane Idee, die Münzen durch Käse zu ersetzen, umgesetzt und erweitert. Die Münzen wurden also alle in Käsestücke umgewandelt und an Stelle der Münzen befinden sich nun Textboxen mit Rattenfakten. Diese tauchen auf, sobald der dazugehörige Käse &ldquo;gegessen&rdquo; wurde. Um anschließend die Tipps im Spiel wiederfinden zu können wurden aus den Käsestücke Käseleiber. Sobald die Ratte den Käseleib &ldquo;gefressen&rdquo; hatte wurde dieser ausgeblendet und stattdessen ein Käsestück eingeblendet. Damit wurde nach dem Belohnungsprinzip gearbeitet und die Teilnehmer*innen, bzw. Spieler*innen werden mit Fakten &ldquo;belohnt&rdquo;, wenn sie die Ratte dazu bringen den Käse zu essen.</p>
+<p>Da das Spiel als Lernspiel gedacht war, wurde die spontane Idee, die Münzen durch Käse zu ersetzen, umgesetzt und erweitert. Die Münzen wurden also alle in Käsestücke umgewandelt und an Stelle der Münzen befinden sich nun Textboxen mit Rattenfakten. Diese tauchen auf, sobald der dazugehörige Käse &ldquo;gegessen&rdquo; wurde. Um anschließend die Tipps im Spiel wiederfinden zu können wurden aus den Käsestücke Käselaiber. Sobald die Ratte den Käselaib &ldquo;gefressen&rdquo; hatte wurde dieser ausgeblendet und stattdessen ein Käsestück eingeblendet. Damit wurde nach dem Belohnungsprinzip gearbeitet und die Teilnehmer*innen, bzw. Spieler*innen werden mit Fakten &ldquo;belohnt&rdquo;, wenn sie die Ratte dazu bringen den Käse zu essen.</p>
 <p><img src="../../img/woche_10/machM%C3%A4nnchen_script.png" alt="alt text" title="Screenshot der oben beschriebenen Funktion machMännchen"></p>
 <p><img src="../../img/woche_10/machM%C3%A4nnchen.png" alt="alt text" title="Ratte in VR, die unter einer Textbox auf den Hinterbeinen steht."></p>
 <p>Nächster Fokuspunkt war es, die Handpose &ldquo;Aufheben&rdquo; mit der gleichnamigen Methode &ldquo;Aufheben&rdquo; zu verbinden und die Ratte das T-Stück des Interaction Tasks aufheben zu lassen.
