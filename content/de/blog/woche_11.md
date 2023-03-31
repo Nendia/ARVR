@@ -5,7 +5,7 @@ date: 2023-02-03T18:00:00+01:00
 lastmod: 2023-03-29T12:45:00+01:00
 description: "Bewegungen der Ratte fertiggstellt, Rotation des Interaction Tasks"
 tags: ["Bewegungen der Ratte, Rotation, Parcourumbau"]
-thumbnail: #/img/woche_1/vr_ar_setup.png
+thumbnail: /img/woche_11/bewegung_rotation.png
 ---
 
 Während es in der Vorlesung diese Woche um Human-Centered Design, User-Centered Design und um Usability ging, ging es in meinem Projekt um grundlegendere Funktionen. 

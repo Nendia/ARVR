@@ -5,7 +5,7 @@ date: 2023-03-01T12:00:00+01:00
 lastmod: 2023-03-30T09:09:00+01:00
 description: "Recap und kurze Zusammenfassung des Projekts"
 tags: ["Zusammenfassung"]
-thumbnail: #/img/woche_1/vr_ar_setup.png
+thumbnail: /img/zusammenfassung/zusammenfassung.png
 ---
 
 In der integrierten Veranstaltung "Interaktion in Virtuellen und Augmentierten Welten" wurde als Prüfungsleistung ein Projekt gefordert.

@@ -5,7 +5,7 @@ date: 2022-11-30T21:00:00+01:00
 lastmod: 2023-03-24T18:36:20+01:00
 description: "Erste Infos zur Parcour Challenge"
 tags: ["Einstieg, Parcour"]
-thumbnail: #/img/woche_1/vr_ar_setup.png
+thumbnail: #/img/woche_5/parcour_challenge.png
 ---
 
 Endlich gab es die Einweisung in die eigentliche Semesteraufgabe.

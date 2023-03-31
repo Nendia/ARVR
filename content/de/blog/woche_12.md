@@ -5,7 +5,7 @@ date: 2023-02-06T12:00:00+01:00
 lastmod: 2023-03-29T16:34:00+01:00
 description: "Finale Schliffe und Abschlusspräsentation"
 tags: ["Abschlusspräsentation"]
-thumbnail: #/img/woche_1/vr_ar_setup.png
+thumbnail: /img/woche_12/abschlusspräsentation.png
 ---
 
 Da in dieser Woche die finale Vorstellung des Projektes anstand wurden am Projekt nur noch ein paar finale Schliffe gemacht und probeweise ein Proband gebeten den Parcour einmal zu machen.

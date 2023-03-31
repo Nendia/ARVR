@@ -5,7 +5,7 @@ date: 2022-11-12T19:56:20+01:00
 lastmod: 2023-03-22T19:00:00+01:00
 description: "Erste Schritte in VR"
 tags: ["HMD, erste Schritte"]
-thumbnail: #/img/woche_1/vr_ar_setup.png
+thumbnail: /img/woche_3/erste_Schritte.png
 ---
 
 Die nächste Aufgabe war es, die Quest in den Entwicklermodus zu bringen und das Setup auf dem PC so einzurichten, dass Daten von Unity auf die Quest übertragen werden konnten. 

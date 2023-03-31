@@ -5,7 +5,7 @@ date: 2022-12-12T21:00:00+01:00
 lastmod: 2023-03-24T18:36:20+01:00
 description: "Tracking Devices und Controls"
 tags: ["Projektideen, Steuerung"]
-thumbnail: #/img/woche_1/vr_ar_setup.png
+thumbnail: /img/woche_7/controls.png
 ---
 
 Bei der Besprechung der Themen 'Tracking Devices' und 'Controls' habe ich für mein Projekt entschieden, dass der Parcour gänzlich mit Gestenerkennung umgesetzt werden soll. 

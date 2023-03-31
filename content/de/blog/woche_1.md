@@ -5,11 +5,11 @@ date: 2022-11-01T17:15:07+01:00
 lastmod: 2023-03-20T17:15:07+01:00
 description: "Grundlagen"
 tags: ["grundlagen"]
-thumbnail: /img/woche_1/vr_ar_setup.png
+thumbnail: /img/woche_1/grundlagen.png
 ---
 
 Diese Woche wurden zuerst Grundlagen geschaffen.
-![alt text](/img/woche_1/vr_ar_setup.png "Bild mit dem Schriftzug VR AR Setup")
+![alt text](/img/woche_1/setup.png "Bild mit dem Schriftzug VR AR Setup")
 Die Begriffe Augmented Reality (AR), Virtual Reality (VR), Mixed Reality, Augmented Virtuality, Virtual Environment, sowie Extended Reality (XR) wurden definiert. Ebenfalls sind uns Seminarteilnehmern nun Grundlagen der XR und HCI Forschung bekannt.
 Zusätzlich wurde das Projekt, welches wir im Laufe des Semesters in Eigenverantwortung erstellen sollen, kurz umrissen.
 

@@ -5,7 +5,7 @@ date: 2022-12-05T21:00:00+01:00
 lastmod: 2023-03-24T18:36:20+01:00
 description: "Brainstorming und Cybersickness" 
 tags: ["Projektideen, Cybersickness"]
-thumbnail: #/img/woche_1/vr_ar_setup.png
+thumbnail: /img/woche_6/brainstorming.png
 ---
 
 Themen dieser Woche waren im Wesentlichen die menschliche Wahrnehmung, sowie Cybersickness und was man bei seinem Projekt beachten sollte, um diese zu verhindern. 

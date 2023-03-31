@@ -5,7 +5,7 @@ date: 2023-03-31T09:00:00+01:00
 lastmod: 2023-03-31T09:49:00+01:00
 description: "Sammlung aller Dateien und Links"
 tags: ["Dateien, Links, Sammlung"]
-thumbnail: #/img/woche_1/vr_ar_setup.png
+thumbnail: /img/Sammlung/sammlung.png
 ---
 
 Alle Unterlagen aus der integrierten Veranstaltung "Interaktion in Virtuellen und Augmentierten Welten", sowie alle verwendeten Webseiten:

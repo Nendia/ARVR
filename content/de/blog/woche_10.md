@@ -5,7 +5,7 @@ date: 2023-01-25T12:00:00+01:00
 lastmod: 2023-03-27T18:57:00+01:00
 description: "Umzug in Git und Finalisierung der Posenerkennung"
 tags: ["Umzug in Git, Posenerkennung, Rattenmodelsuche"]
-thumbnail: #/img/woche_1/vr_ar_setup.png
+thumbnail: /img/woche_10/posenerkennung.png
 ---
 
 Dank der Vorlesung ist mir nun bewusst: Haptisches Feedback in VR wird in die Bereiche activ haptics, passive haptics und pseudo haptics aufgesplittet. Zusätzlich wurden die Themen Tracking Devices und Interaction Techniques erneut aufgegriffen. 
