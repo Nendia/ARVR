@@ -1,153 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Blog on Home</title>
-    <link>https://Nendia.github.io/ARVR/blog/</link>
-    <description>Recent content in Blog on Home</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 31 Mar 2023 09:00:00 +0100</lastBuildDate><atom:link href="https://Nendia.github.io/ARVR/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Sammlung</title>
-      <link>https://Nendia.github.io/ARVR/blog/sammlung/</link>
-      <pubDate>Fri, 31 Mar 2023 09:00:00 +0100</pubDate>
-      
-      <guid>https://Nendia.github.io/ARVR/blog/sammlung/</guid>
-      <description>Alle Unterlagen aus der integrierten Veranstaltung &amp;ldquo;Interaktion in Virtuellen und Augmentierten Welten&amp;rdquo;, sowie alle verwendeten Webseiten:
-Verwendete Soft- und Hardware:
-Meta Quest 2HugoDie verwendeten Tutorials:
-Hugo-TutorialHugo-ExtendedPostCSS with HugoMarkdown IntroductionRoll a BallEntwicklermodus auf der QuestHand Tracking Gesture Detection - Unity Oculus Quest Tutorial von ValemHAND TRACKING with the Oculus Quest - Unity Tutorial von ValemModified Gesture Detector for Hand Tracking - Unity - Oculus Quest von TotallyNotDevsSonstige Links:</description>
-    </item>
-    
-    <item>
-      <title>Zusammenfassung: Interaktion in Virtuellen und Augmentierten Welten</title>
-      <link>https://Nendia.github.io/ARVR/blog/zusammenfassung/</link>
-      <pubDate>Wed, 01 Mar 2023 12:00:00 +0100</pubDate>
-      
-      <guid>https://Nendia.github.io/ARVR/blog/zusammenfassung/</guid>
-      <description>In der integrierten Veranstaltung &amp;ldquo;Interaktion in Virtuellen und Augmentierten Welten&amp;rdquo; wurde als Prüfungsleistung ein Projekt gefordert. Dieses Projekt beinhaltete, dass jede*r Teilnehmer*in eine Meta Quest 2zur Verfügung gestellt bekam und mit Hilfe dieser einen Parcour in VR erstellen sollte. Für den Parcour bekamen die Teilnehmenden eine Vorlage, in welcher &amp;ldquo;nur noch&amp;rdquo; die Locomotion Technique eingepflegt werden musste.
-Der projektbegleitende Blog, der während des Semesters erstellt werden sollte, wurde, wie vorgegeben, mit Hilfe von Hugoerstellt und aktualisiert.</description>
-    </item>
-    
-    <item>
-      <title>Woche 12</title>
-      <link>https://Nendia.github.io/ARVR/blog/woche_12/</link>
-      <pubDate>Mon, 06 Feb 2023 12:00:00 +0100</pubDate>
-      
-      <guid>https://Nendia.github.io/ARVR/blog/woche_12/</guid>
-      <description>Da in dieser Woche die finale Vorstellung des Projektes anstand wurden am Projekt nur noch ein paar finale Schliffe gemacht und probeweise ein Proband gebeten den Parcour einmal zu machen. Der Proband wurde natürlich nicht in die eigentliche Studie einbezogen.
-Die Abschlusspräsentation wurde gehalten, bevor die Miniaturstudie durchgeführt wurde, weshalb das Logging erst nach der Abschlusspräsentation in das Projekt eingepflegt wurde.
-Das Einbinden des Loggings war dank JSON sehr einfach möglich.</description>
-    </item>
-    
-    <item>
-      <title>Woche 11</title>
-      <link>https://Nendia.github.io/ARVR/blog/woche_11/</link>
-      <pubDate>Fri, 03 Feb 2023 18:00:00 +0100</pubDate>
-      
-      <guid>https://Nendia.github.io/ARVR/blog/woche_11/</guid>
-      <description>Während es in der Vorlesung diese Woche um Human-Centered Design, User-Centered Design und um Usability ging, ging es in meinem Projekt um grundlegendere Funktionen.
-Erster Fokuspunkt war es, die Handpose &amp;ldquo;Aufheben&amp;rdquo; mit der gleichnamigen Methode &amp;ldquo;Aufheben&amp;rdquo; zu verbinden und die Ratte das T-Stück des Interaction Tasks aufheben zu lassen. Zuallererst wurde das T, welches wir mit dem ursprünglichen Parcour erhalten hatten, durch ein Stück Käse ersetzt. Um nichts in der Hauptszene zu zerstören wurde in eine andere Szene gewechselt und dort die Funktion &amp;ldquo;Aufheben&amp;rdquo; erst einmal provisorisch implementiert.</description>
-    </item>
-    
-    <item>
-      <title>Woche 10</title>
-      <link>https://Nendia.github.io/ARVR/blog/woche_10/</link>
-      <pubDate>Wed, 25 Jan 2023 12:00:00 +0100</pubDate>
-      
-      <guid>https://Nendia.github.io/ARVR/blog/woche_10/</guid>
-      <description>Dank der Vorlesung ist mir nun bewusst: Haptisches Feedback in VR wird in die Bereiche activ haptics, passive haptics und pseudo haptics aufgesplittet. Zusätzlich wurden die Themen Tracking Devices und Interaction Techniques erneut aufgegriffen.
-Für mein Projekt musste zuerst noch eine passende Ratte gefunden werden. Hierbei wurde der Fokus darauf gelegt, diese Ratte nicht noch animieren, bzw. riggen zu müssen. Nach längerer Recherche fand sich folgende Ratte:
-Your browser does not support the video tag.</description>
-    </item>
-    
-    <item>
-      <title>Woche 9</title>
-      <link>https://Nendia.github.io/ARVR/blog/woche_9/</link>
-      <pubDate>Sat, 07 Jan 2023 18:00:00 +0100</pubDate>
-      
-      <guid>https://Nendia.github.io/ARVR/blog/woche_9/</guid>
-      <description>Hauptthemen dieser Woche waren Presence und Perception in VR. Fokus lag hierbei darauf, wieso Perception in VR wichtig ist, als auch welche Faktoren Perception beeinflussen und wie man diese messen kann.
-Nachdem in der letzten Woche Feedback zur Projektidee eingeholt wurde, konnte ich nun endlich mit dem Projekt starten. Step 1 war es, die Vorlage des Parcours in Unity zu laden und diese auf die passende Größe anzupassen. Da meine Projektidee darauf basiert, dass man nicht selbst die Spielfigur darstellt, sondern die eigentliche Figur per Gesten steuert benötigte ich einen Parcour der auf Rattengröße geschrumpft ist.</description>
-    </item>
-    
-    <item>
-      <title>Woche 8</title>
-      <link>https://Nendia.github.io/ARVR/blog/woche_8/</link>
-      <pubDate>Mon, 19 Dec 2022 21:00:00 +0100</pubDate>
-      
-      <guid>https://Nendia.github.io/ARVR/blog/woche_8/</guid>
-      <description>Nachdem nun die grobe Idee für das Projekt feststand sollte diese auch den restlichen Seminarteilnehmern gepitched werden. Dies war der erste Pitch des Projekts:</description>
-    </item>
-    
-    <item>
-      <title>Woche 7</title>
-      <link>https://Nendia.github.io/ARVR/blog/woche_7/</link>
-      <pubDate>Mon, 12 Dec 2022 21:00:00 +0100</pubDate>
-      
-      <guid>https://Nendia.github.io/ARVR/blog/woche_7/</guid>
-      <description>Bei der Besprechung der Themen &amp;lsquo;Tracking Devices&amp;rsquo; und &amp;lsquo;Controls&amp;rsquo; habe ich für mein Projekt entschieden, dass der Parcour gänzlich mit Gestenerkennung umgesetzt werden soll. Bei der Überlegung diesbezüglich wurde beachtet, dass aufgrund der Gestenerkennung jede*r Teilnehmer*in die Möglichkeit benötigt mit der Hand mindestens sechs Gesten zu formen. Sofern die Person jedoch mindestens drei Finger an der rechten Hand besitzt ist das möglich. Ein Linkshandsupport ist geplant, wird aber einiges an Zeit benötigen.</description>
-    </item>
-    
-    <item>
-      <title>Woche 6</title>
-      <link>https://Nendia.github.io/ARVR/blog/woche_6/</link>
-      <pubDate>Mon, 05 Dec 2022 21:00:00 +0100</pubDate>
-      
-      <guid>https://Nendia.github.io/ARVR/blog/woche_6/</guid>
-      <description>Themen dieser Woche waren im Wesentlichen die menschliche Wahrnehmung, sowie Cybersickness und was man bei seinem Projekt beachten sollte, um diese zu verhindern. Mit diesem neuen Wissen wurden meine Projektideen noch einmal überarbeitet.
-Die Ideen ließen sich im Prinzip in drei Bereiche einteilen:
-Lernspiel Logiktraining Koordinationsspiel Die folgenden fünf Ideen standen für mich am Ende des Brainstormings zur Auswahl:
-Lernspiel, bei dem sich Wissen angeeignet wird welches am Ende für Studienzwecke überprüft wird Lernspiel, das helfen soll Ekel, Ängste und Phobien abzutrainieren Logiktraining, welches kleine Rätsel beinhaltet Lernspiel, bei dem die Gebärdensprache spielerisch erlernt wird Koordinationsspiel, bei welchem die Koordination zwischen Füßen und Händen geübt werden soll Da ich mit der Umsetzung des Projekts erst im Januar beginnen konnte, werden die Ideen jede Woche erneut evaluiert und im Zweifelsfall gestrichen oder angepasst.</description>
-    </item>
-    
-    <item>
-      <title>Woche 5</title>
-      <link>https://Nendia.github.io/ARVR/blog/woche_5/</link>
-      <pubDate>Wed, 30 Nov 2022 21:00:00 +0100</pubDate>
-      
-      <guid>https://Nendia.github.io/ARVR/blog/woche_5/</guid>
-      <description>Endlich gab es die Einweisung in die eigentliche Semesteraufgabe. Wir bekamen eine Unity-Vorlage für einen Parcour.
-Ziel: Eine eigene Locomotion Technique überlegen und diese so umsetzen, dass unsere Studienteilnehmer*innen den Parcour damit durchführen können.
-Hierbei sollten wir eine Möglichkeit haben den Spieler vorwärts zu bewegen und zusätzlich sollte es eine Möglichkeit geben die Interaction Task zu erledigen. In der Interaction Task muss die spielende Person das dargestellte T auf die leicht durchsichtige Fläche bewegen.</description>
-    </item>
-    
-    <item>
-      <title>Woche 4</title>
-      <link>https://Nendia.github.io/ARVR/blog/woche_4/</link>
-      <pubDate>Tue, 22 Nov 2022 16:00:00 +0100</pubDate>
-      
-      <guid>https://Nendia.github.io/ARVR/blog/woche_4/</guid>
-      <description>Eigentlich wäre erst diese Woche der erste Import eines Projektes auf die Quest geplant gewesen. Da ich am Anfang das roll-a-ball-Tutorial komplett online gemacht hatte, fiel mir nicht auf, dass bisher der Import auf die Quest nicht gefordert war. Somit hatte ich eine Woche &amp;lsquo;Pause&amp;rsquo; und habe etwas Brainstorming zu meinem Locomotion-Projekt betrieben.</description>
-    </item>
-    
-    <item>
-      <title>Woche 3</title>
-      <link>https://Nendia.github.io/ARVR/blog/woche_3/</link>
-      <pubDate>Sat, 12 Nov 2022 19:56:20 +0100</pubDate>
-      
-      <guid>https://Nendia.github.io/ARVR/blog/woche_3/</guid>
-      <description>Die nächste Aufgabe war es, die Quest in den Entwicklermodus zu bringen und das Setup auf dem PC so einzurichten, dass Daten von Unity auf die Quest übertragen werden konnten. Stolperfallen gab es vor allem beim Übertragen der .apk. Wenn in Unity nicht vor der Übertragung die Project Settings geändert wurden, wirft die Quest einen Fehler, der im ersten Moment unsinnig erscheint. Ändert man jedoch den Company und Product Name sind diese Fehler behoben.</description>
-    </item>
-    
-    <item>
-      <title>Woche 2</title>
-      <link>https://Nendia.github.io/ARVR/blog/woche_2/</link>
-      <pubDate>Sat, 05 Nov 2022 19:56:00 +0100</pubDate>
-      
-      <guid>https://Nendia.github.io/ARVR/blog/woche_2/</guid>
-      <description>Die Vorlesung dieser Woche brachte uns die Geschichte der Augmented, bzw. Virtual Reality näher. In der dazugehörigen Übung durften wir nun mit dem ersten Projekt starten. Natürlich mit Hilfe eines Tutorials, aber ohne dieses wäre das Verständnis zu Unity noch schwieriger gewesen zu bilden.
-Alle erstellten Projekte dieses Seminars sollten auf einer Meta Quest 2laufen. Ziel des ersten Projekts war es, ein Spielbrett zu gestalten, auf dem sich ein Ball und mehrere Würfel befinden.</description>
-    </item>
-    
-    <item>
-      <title>Woche 1</title>
-      <link>https://Nendia.github.io/ARVR/blog/woche_1/</link>
-      <pubDate>Tue, 01 Nov 2022 17:15:07 +0100</pubDate>
-      
-      <guid>https://Nendia.github.io/ARVR/blog/woche_1/</guid>
-      <description>Diese Woche wurden zuerst Grundlagen geschaffen. Die Begriffe Augmented Reality (AR), Virtual Reality (VR), Mixed Reality, Augmented Virtuality, Virtual Environment, sowie Extended Reality (XR) wurden definiert. Ebenfalls sind uns Seminarteilnehmern nun Grundlagen der XR und HCI Forschung bekannt. Zusätzlich wurde das Projekt, welches wir im Laufe des Semesters in Eigenverantwortung erstellen sollen, kurz umrissen.
-Dieser Blog wird mit Hilfe von Hugoerstellt und aktualisiert. Hugo zum Laufen zu bringen, bzw. Bilder einzubinden und Themes anzuwenden war komplizierter als erwartet.</description>
-    </item>
-    
-  </channel>
-</rss>

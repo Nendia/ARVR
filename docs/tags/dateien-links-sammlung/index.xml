@@ -1,22 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Dateien, Links, Sammlung on Home</title>
-    <link>https://Nendia.github.io/ARVR/tags/dateien-links-sammlung/</link>
-    <description>Recent content in Dateien, Links, Sammlung on Home</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 31 Mar 2023 09:00:00 +0100</lastBuildDate><atom:link href="https://Nendia.github.io/ARVR/tags/dateien-links-sammlung/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Sammlung</title>
-      <link>https://Nendia.github.io/ARVR/blog/sammlung/</link>
-      <pubDate>Fri, 31 Mar 2023 09:00:00 +0100</pubDate>
-      
-      <guid>https://Nendia.github.io/ARVR/blog/sammlung/</guid>
-      <description>Alle Unterlagen aus der integrierten Veranstaltung &amp;ldquo;Interaktion in Virtuellen und Augmentierten Welten&amp;rdquo;, sowie alle verwendeten Webseiten:
-Verwendete Soft- und Hardware:
-Meta Quest 2HugoDie verwendeten Tutorials:
-Hugo-TutorialHugo-ExtendedPostCSS with HugoMarkdown IntroductionRoll a BallEntwicklermodus auf der QuestHand Tracking Gesture Detection - Unity Oculus Quest Tutorial von ValemHAND TRACKING with the Oculus Quest - Unity Tutorial von ValemModified Gesture Detector for Hand Tracking - Unity - Oculus Quest von TotallyNotDevsSonstige Links:</description>
-    </item>
-    
-  </channel>
-</rss>
