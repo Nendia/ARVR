@@ -5,7 +5,7 @@ date: 2023-01-07T18:00:00+01:00
 lastmod: 2023-03-27T18:07:00+01:00
 description: "Parcourumbau und Gestenerkennung"
 tags: ["Parcourumbau, Gestenerkennung, Posenerkennung"]
-thumbnail: #/img/woche_9/gestenerkennung.png
+thumbnail: /img/woche_9/gestenerkennung.png
 ---
 
 Hauptthemen dieser Woche waren Presence und Perception in VR. Fokus lag hierbei darauf, wieso Perception in VR wichtig ist, als auch welche Faktoren Perception beeinflussen und wie man diese messen kann.

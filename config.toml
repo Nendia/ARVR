@@ -172,6 +172,9 @@ DefaultContentLanguageInSubdir = true
   description = "Bunte Mischung aus Lehreralltag, Studienverlauf und Rattencontent"
 
   [[params.homepage.social.icons]]
+    website = "twitch"
+    url = "https://twitch.com/nendia1989"
+  [[params.homepage.social.icons]]
     website = "twitter"
     url = "https://twitter.com/nendia1989"
   [[params.homepage.social.icons]]

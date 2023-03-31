@@ -2,7 +2,7 @@
 + Links anpassen, damit das mit ARVR funktioniert
 + Datum anpassen in allen Wochen
 - Icon für Twitch erstellen
-- Thumbnails für jede Woche anpassen
++ Thumbnails für jede Woche anpassen
 woche 1 Bild: Grundlagen
 woche 2 Bild: AR VR - Setup -
 
