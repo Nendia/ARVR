@@ -8,7 +8,7 @@ tags: ["Projektideen, Cybersickness"]
 thumbnail: #/img/woche_1/vr_ar_setup.png
 ---
 
-Themen dieser Woche waren im Wesentlichen die menschliche Warnehmung, sowie Cybersickness und was man bei seinem Projekt beachten sollte, um diese zu verhindern. 
+Themen dieser Woche waren im Wesentlichen die menschliche Wahrnehmung, sowie Cybersickness und was man bei seinem Projekt beachten sollte, um diese zu verhindern. 
 Mit diesem neuen Wissen wurden meine Projektideen noch einmal überarbeitet.
 
 ![alt text](/img/woche_6/zweites_brainstorming.png "Screenshot der einen Überblick über die unten aufgelisteten Ideen aus dem Brainstorming gibt.")
