@@ -33,6 +33,8 @@ Sonstige Links:
 
 Dateien zum Download:
 * [GestureDetector](/img/woche_9/GestureDetector.cs)
+* [Elevatorpitch](/img/elevator_pitch_AR_VR_2.pptx)
+* [Abschlusspräsentation](/img/Abschlusspräsi_AR_VR_Völkl.pptx)
 * [Video 1 der animierten Ratte](/img/woche_10/rat_pr_1.mp4)
 * [Video 2 der animierten Ratte](/img/woche_10/rat_pr_2.mp4)
 * [Kurzvideo zum Projekt](/img/zusammenfassung/Kurzvideo.mp4)
